@@ -1,0 +1,16 @@
+1. bloodtypes.csv 
+Wikipedia: Blood type distribution by country
+https://en.wikipedia.org/wiki/Blood_type_distribution_by_country
+
+2. gdp.csv
+World Population Review: Countries by GDP
+https://worldpopulationreview.com/countries/countries-by-gdp/
+
+3. healthcare_rank.csv
+Legatum Prosperity Index
+https://www.prosperity.com/download_file/view/3691/1692
+
+4. smoking_rate.csv
+https://ourworldindata.org/smoking
+blob:https://ourworldindata.org/42c32f6c-bb4d-406e-a497-c64bea61d90f
+
