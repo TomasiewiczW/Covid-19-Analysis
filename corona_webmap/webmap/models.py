@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.gis.db.models import PointField
-
+from django.core.validators import MaxValueValidator, MinValueValidator
 
 # Create a Country table for the database
 class Country(models.Model):
@@ -33,14 +33,30 @@ class Recovered(models.Model):
 
 class Bloodtype(models.Model):
     country = models.ForeignKey(Country,on_delete=models.CASCADE)
-    Ominus = models.FloatField()
-    Oplus = models.FloatField()
-    Aminus = models.FloatField()
-    Aplus = models.FloatField()
-    Bminus = models.FloatField()
-    Bplus = models.FloatField()
-    ABminus = models.FloatField()
-    ABplus = models.FloatField()
+    Ominus = models.FloatField(
+        validators=[MinValueValidator(0), MaxValueValidator(100)],
+    )
+    Oplus = models.FloatField(
+        validators=[MinValueValidator(0), MaxValueValidator(100)],
+    )
+    Aminus = models.FloatField(
+        validators=[MinValueValidator(0), MaxValueValidator(100)],
+    )
+    Aplus = models.FloatField(
+        validators=[MinValueValidator(0), MaxValueValidator(100)],
+    )
+    Bminus = models.FloatField(
+        validators=[MinValueValidator(0), MaxValueValidator(100)],
+    )
+    Bplus = models.FloatField(
+        validators=[MinValueValidator(0), MaxValueValidator(100)],
+    )
+    ABminus = models.FloatField(
+        validators=[MinValueValidator(0), MaxValueValidator(100)],
+    )
+    ABplus = models.FloatField(
+        validators=[MinValueValidator(0), MaxValueValidator(100)],
+    )
 
 class Healthcare(models.Model):
     country = models.ForeignKey(Country, on_delete=models.CASCADE)
@@ -49,10 +65,15 @@ class Healthcare(models.Model):
 
 class Smoking(models.Model):
     country = models.ForeignKey(Country, on_delete=models.CASCADE)
-    male = models.FloatField()
-    female = models.FloatField()
-    total = models.FloatField()
-
+    male = models.FloatField(
+        validators=[MinValueValidator(0), MaxValueValidator(100)],
+    )
+    female = models.FloatField(
+        validators=[MinValueValidator(0), MaxValueValidator(100)],
+    )
+    total = models.FloatField(
+        validators=[MinValueValidator(0), MaxValueValidator(100)],
+    )
 class GPD(models.Model):
     country = models.ForeignKey(Country, on_delete=models.CASCADE)
     rank = models.IntegerField()
