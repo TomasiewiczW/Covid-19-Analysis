@@ -1,0 +1,168 @@
+healthcare_rank_id,country,rank,score
+1,Singapore,1,86.6
+2,Japan,2,86.3
+3,Switzerland,3,84.2
+4,South Korea,4,84.2
+5,Norway,5,83.4
+6,Hong Kong,6,83.1
+7,Iceland,7,82.8
+8,Denmark,8,82.8
+9,Netherlands,9,82.6
+10,Austria,10,82.5
+11,Israel,11,82.4
+12,Germany,12,82.3
+13,Spain,13,82.1
+14,Malta,14,82
+15,Sweden,15,82
+16,France,16,81.9
+17,Italy,17,81.8
+18,Australia,18,81.8
+19,Luxembourg,19,81.4
+20,Ireland,20,80.9
+21,China,21,80.9
+22,New Zealand,22,80.8
+23,United Kingdom,23,80.5
+24,Belgium,24,80.5
+25,Canada,25,80.2
+26,Finland,26,80
+27,Cuba,27,79.9
+28,Czechia,28,79.8
+29,Cyprus,29,79.7
+30,Portugal,30,79.4
+31,Taiwan,31,79.4
+32,Slovenia,32,79.2
+33,Greece,33,79.1
+34,Uruguay,34,78.9
+35,Thailand,35,78.7
+36,Costa Rica,36,78.6
+37,Mexico,37,78.2
+38,Seychelles,38,77.9
+39,Malaysia,39,77.6
+40,Poland,40,77.5
+41,Uzbekistan,41,77.3
+42,Vietnam,42,77.3
+43,Slovakia,43,77.1
+44,Colombia,44,77
+45,Panama,45,76.8
+46,Argentina,46,76.3
+47,United Arab Emirates,47,76.1
+48,Qatar,48,76.1
+49,Sri Lanka,49,75.5
+50,Jamaica,50,75.5
+51,Kuwait,51,75.5
+52,Hungary,52,75.4
+53,Bahrain,53,75.4
+54,Mauritius,54,75.4
+55,Estonia,55,75.3
+56,North Macedonia,56,75.1
+57,Croatia,57,75
+58,Brazil,58,75
+59,United States,59,74.9
+60,Peru,60,74.9
+61,Oman,61,74.8
+62,Turkmenistan,62,74.6
+63,Ecuador,63,74.2
+64,Turkey,64,74
+65,Bulgaria,65,74
+66,Azerbaijan,66,73.7
+67,Armenia,67,73.7
+68,Saudi Arabia,68,73.3
+69,Albania,69,73.2
+70,Chile,70,73.1
+71,Romania,71,73
+72,Serbia,72,73
+73,Algeria,73,72.9
+74,Tajikistan,74,72.6
+75,Venezuela,75,72.5
+76,Belarus,76,72.5
+77,Trinidad and Tobago,77,72.4
+78,Nicaragua,78,72.3
+79,Cabo Verde,79,72.2
+80,Jordan,80,72.2
+81,Paraguay,81,72.1
+82,Lebanon,82,72.1
+83,Honduras,83,71.9
+84,Kazakhstan,84,71.8
+85,Dominican Republic,85,71.5
+86,El Salvador,86,71.4
+87,Latvia,87,71.3
+88,Iran,88,71.3
+89,Kyrgyzstan,89,71.3
+90,Georgia,90,71.2
+91,Montenegro,91,71.1
+92,Lithuania,92,70.9
+93,Bosnia and Herzegovina,93,70.4
+94,Tunisia,94,70.4
+95,Belize,95,69.7
+96,Moldova,96,69.2
+97,Indonesia,97,69
+98,Guatemala,98,68.9
+99,Cambodia,99,68.9
+100,Mongolia,100,68.8
+101,Philippines,101,68.7
+102,Libya,102,68.4
+103,Russia,103,68.3
+104,São Tomé and Príncipe,104,67.8
+105,Rwanda,105,67.5
+106,Suriname,106,67
+107,Myanmar,107,66.9
+108,Bolivia,108,66.9
+109,India,109,66.6
+110,Morocco,110,66.5
+111,Egypt,111,66.2
+112,Syria,112,65.9
+113,Bangladesh,113,65.7
+114,Ukraine,114,64.8
+115,Kenya,115,64.5
+116,Guyana,116,63.9
+117,Ghana,117,63.6
+118,Nepal,118,63
+119,Botswana,119,62.1
+120,Djibouti,120,62
+121,Iraq,121,61.2
+122,Senegal,122,61
+123,Laos,123,60.9
+124,Tanzania,124,60.7
+125,Eritrea,125,60.3
+126,Namibia,126,60.2
+127,Pakistan,127,59.9
+128,Zambia,128,59.5
+129,Gabon,129,58.4
+130,Ethiopia,130,58.1
+131,Sudan,131,57.9
+132,Comoros,132,57.9
+133,South Africa,133,57.8
+134,Zimbabwe,134,57.5
+135,Malawi,135,57.1
+136,Burundi,136,56.5
+137,Mauritania,137,56.2
+138,Burkina Faso,138,56.1
+139,Madagascar,139,55
+140,Uganda,140,54
+141,Congo,141,53.8
+142,The Gambia,142,53.7
+143,Mozambique,143,53.2
+144,Haiti,144,52.8
+145,Benin,145,52.5
+146,Eswatini,146,52.4
+147,Papua New Guinea,147,52.1
+148,Togo,148,51.9
+149,Yemen,149,51.5
+150,Niger,150,50.7
+151,Guinea-Bissau,151,50.1
+152,Angola,152,50
+153,Afghanistan,153,49.9
+154,Mali,154,49.6
+155,Côte d'Ivoire,155,48.6
+156,Democratic Republic of Congo,156,48.5
+157,Guinea,157,46.5
+158,Cameroon,158,46.4
+159,Equatorial Guinea,159,45.6
+160,Liberia,160,45.5
+161,Somalia,161,44.2
+162,Nigeria,162,43.4
+163,Lesotho,163,42.7
+164,Sierra Leone,164,42.2
+165,Central African Republic,165,35.7
+166,Chad,166,34.9
+167,South Sudan,167,34
