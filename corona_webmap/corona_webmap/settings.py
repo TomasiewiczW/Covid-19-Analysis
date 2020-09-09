@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.gis',
+    'leaflet',
+    'djgeojson',
     'webmap',
 ]
 
@@ -134,3 +136,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+LEAFLET_CONFIG = {
+    'DEFAULT_CENTER': (0.0, 0.0),
+    'DEFAULT_ZOOM': 2,
+    'MIN_ZOOM': 2,
+    'MAX_ZOOM': 7,
+    'DEFAULT_PRECISION': 6,
+}

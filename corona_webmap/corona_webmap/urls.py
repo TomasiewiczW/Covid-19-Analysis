@@ -16,8 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from webmap import views
+from djgeojson.views import GeoJSONLayerView
+
+from webmap.models import Country
 
 urlpatterns = [
     path('', views.WebmapTemplateView.as_view()),
     path('admin/', admin.site.urls),
+    path('data.geojson', GeoJSONLayerView.as_view(model=Country, properties=('name', 'population', 'area', 'location')), name='data')
 ]

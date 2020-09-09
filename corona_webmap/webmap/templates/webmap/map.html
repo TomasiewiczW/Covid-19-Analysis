@@ -1,65 +1,50 @@
-{% extends "base.html" %}
+{% load leaflet_tags %}
+<html>
+  <head>
+    {% leaflet_js %}
+    {% leaflet_css %}
+    <style>
+    .leaflet-container {  /* all maps */
+        width:  90%;
+        height: 90%;
+        position: center
+    }
+    /* Resize the "display_raw" textbox */
+    .django-leaflet-raw-textarea {
+        width: 100%;
+    }
+    </style>
+    <script>
+      var dataurl = '{% url "data" %}';
 
-{% load i18n %}
-{% load static %}
-
-{% block content%}
-<div id="map" class="h-100 w-100"></div>
-
-
-<!-- Modal -->
-<div class="modal fade" id="reportModal" tabindex="-1" role="dialog" aria-labelledby="reportModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-        <div class="modal-header">
-            <strong class="modal-title" id="reportModalLabel">
-                😷 {% trans "Submit report" %}
-            </strong>
-
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-
-        <div class="modal-body">
-            <form id="reportForm">
-                <div class="form-group">
-                    <label for="id_first_symptomatic">
-                        {% trans "First symptomatic" %}
-                    </label>
-                    <input type="date" name="first_symptomatic" required="required" id="id_first_symptomatic" class="form-control">
-                </div>
-
-                <div class="form-group">
-                    <label for="id_location_map">
-                        {% trans "Location" %}
-                    </label>
-                    <div id="id_location_map" style="width: 100%"></div>
-                    <p id="location_map_validation_message" class="bg-danger text-white mt-2 p-2" style="display: none;">Please choose a location for this report.</p>
-                </div>
-
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    {% trans "Close" %}
-                </button>
-
-                <button type="submit" class="btn btn-primary">
-                    {% trans "Submit" %}
-                </button>
-            </form>
-        </div>
-    </div>
-</div>
-{% endblock content %}
-
-{% block extra_js %}
-<script src="{% static '/js/webmap.js' %}"></script>
-<script src="{% static '/js/modal.js' %}"></script>
-{% endblock extra_js %}
-
-{% block extra_css %}
-<style>
-#id_location_map {
-    height: 300px;
-}
-</style>
-{% endblock extra_css %}
+      window.addEventListener("map:init", function (event) {
+        var map = event.detail.map;
+        // this part opens a popup showing the lat_long wherever rightclicked
+        map.on('contextmenu', function(e) {
+        var popLocation= e.latlng;
+        var popup = L.popup()
+        .setLatLng(popLocation)
+        .setContent('<p>Hello world!<br />'+popLocation+'</p>')
+        .openOn(map);
+    });
+        // Download GeoJSON data with Ajax
+        fetch(dataurl)
+          .then(function(resp) {
+            return resp.json();
+          })
+          .then(function(data) {
+            L.geoJson(data, {
+              onEachFeature: function onEachFeature(feature, layer) {
+                var props = feature.properties;
+                var content = `<img width="300" src="${props.location}"/><h3>${props.name}</h3><p>${props.population}</p>`;
+                layer.bindPopup(content);
+            }}).addTo(map);
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Corona Symptoms</h1>
+    {% leaflet_map "main" %}
+  </body>
+</html>
