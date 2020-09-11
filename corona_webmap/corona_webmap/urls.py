@@ -18,10 +18,10 @@ from django.urls import path, include
 from webmap import views
 from djgeojson.views import GeoJSONLayerView
 
-from webmap.models import Country
+from webmap.models import WorldBorder
 
 urlpatterns = [
     path('', views.WebmapTemplateView.as_view()),
     path('admin/', admin.site.urls),
-    path('data.geojson', GeoJSONLayerView.as_view(model=Country, properties=('name', 'population', 'area', 'location')), name='data')
+    path('data.geojson', GeoJSONLayerView.as_view(model=WorldBorder, properties=('name', 'population', 'area', 'location')), name='data')
 ]
