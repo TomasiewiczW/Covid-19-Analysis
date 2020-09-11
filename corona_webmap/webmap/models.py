@@ -1,8 +1,8 @@
 from django.contrib.gis.db import models
-from django.contrib.gis.db.models import PointField
 from django.core.validators import MaxValueValidator, MinValueValidator
-from django import forms
-# Create a Country table for the database
+
+from django.contrib.gis.geos import Point
+
 
 class WorldBorder(models.Model):
     # Regular Django fields corresponding to the attributes in the world borders shapefile.
@@ -25,6 +25,7 @@ class WorldBorder(models.Model):
     # Returns the string representation of the model.
     def __str__(self):
         return self.name
+
 
 class Confirmed(models.Model):
 

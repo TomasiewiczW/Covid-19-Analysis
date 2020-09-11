@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     'django.contrib.gis',
     'leaflet',
     'djgeojson',
+    'rest_framework',
+    'rest_framework_gis',
     'webmap',
 ]
 
@@ -136,6 +138,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static/js'),)
+
+SERIALIZATION_MODULES = {
+     "geojson": "django.contrib.gis.serializers.geojson",
+  }
 
 LEAFLET_CONFIG = {
     'DEFAULT_CENTER': (0.0, 0.0),
@@ -143,4 +151,5 @@ LEAFLET_CONFIG = {
     'MIN_ZOOM': 2,
     'MAX_ZOOM': 7,
     'DEFAULT_PRECISION': 6,
+    'MINIMAP': True,
 }

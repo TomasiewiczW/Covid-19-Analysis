@@ -14,14 +14,19 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+from django.conf.urls import url
 from django.urls import path, include
 from webmap import views
-from djgeojson.views import GeoJSONLayerView
+from rest_framework.routers import DefaultRouter
 
-from webmap.models import Country
+from webmap.models import WorldBorder
+
+api_router = DefaultRouter()
+api_router.register(r'^v1/cases.geojson', views.CountryViewSet, basename='api')
+app_name = "webmap"
 
 urlpatterns = [
-    path('', views.WebmapTemplateView.as_view()),
-    path('admin/', admin.site.urls),
-    path('data.geojson', GeoJSONLayerView.as_view(model=Country, properties=('name', 'population', 'area', 'location')), name='data')
+    path('api/', include(api_router.urls), name='data'),
+    path('', views.MainPageView.as_view()),
+
 ]

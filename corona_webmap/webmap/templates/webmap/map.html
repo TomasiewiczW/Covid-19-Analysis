@@ -1,50 +1,39 @@
-{% load leaflet_tags %}
+{% load static %}
 <html>
-  <head>
+    {% load leaflet_tags %}
+<head>
     {% leaflet_js %}
     {% leaflet_css %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js" integrity="sha512-Abr21JO2YqcJ03XGZRPuZSWKBhJpUAR6+2wH5zBeO4wAw4oksr8PRdF+BKIRsxvCdq+Mv4670rZ+dLnIyabbGw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/4.1.0/spin.min.js" integrity="sha512-CbohqWjAgarTqRHcX1MbwkF2pujwbsCee1PABpnBWC+VqSldvlNEEI5+4OSsR/HbFQOFFpwY2YvZZNjBMxNnXg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.Spin/1.1.2/leaflet.spin.min.js" integrity="sha512-0XwHwDvBg9jLZlGiwMYZkDM88lmMWazxvreRDE9liyaBZXmKRV5rB50hsyatczCVjCumGl0gpet2EEoHvBLmcA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js" integrity="sha512-MQlyPV+ol2lp4KodaU/Xmrn+txc1TP15pOBF/2Sfre7MRsA/pB4Vy58bEqe9u7a7DczMLtU5wT8n7OblJepKbg==" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
     <style>
-    .leaflet-container {  /* all maps */
-        width:  90%;
-        height: 90%;
-        position: center
-    }
-    /* Resize the "display_raw" textbox */
-    .django-leaflet-raw-textarea {
-        width: 100%;
-    }
+        .leaflet-container {  /* all maps */
+            width:  90%;
+            height: 90%;
+            position: center
+        }
+        /* Resize the "display_raw" textbox */
+        .django-leaflet-raw-textarea {
+            width: 100%;
+        }
     </style>
-    <script>
-      var dataurl = '{% url "data" %}';
-
-      window.addEventListener("map:init", function (event) {
-        var map = event.detail.map;
-        // this part opens a popup showing the lat_long wherever rightclicked
-        map.on('contextmenu', function(e) {
-        var popLocation= e.latlng;
-        var popup = L.popup()
-        .setLatLng(popLocation)
-        .setContent('<p>Hello world!<br />'+popLocation+'</p>')
-        .openOn(map);
-    });
-        // Download GeoJSON data with Ajax
-        fetch(dataurl)
-          .then(function(resp) {
-            return resp.json();
-          })
-          .then(function(data) {
-            L.geoJson(data, {
-              onEachFeature: function onEachFeature(feature, layer) {
-                var props = feature.properties;
-                var content = `<img width="300" src="${props.location}"/><h3>${props.name}</h3><p>${props.population}</p>`;
-                layer.bindPopup(content);
-            }}).addTo(map);
-          });
-      });
-    </script>
-  </head>
-  <body>
-    <h1>Corona Symptoms</h1>
-    {% leaflet_map "main" %}
-  </body>
+</head>
+<body>
+<h1>Corona Symptoms</h1>
+<script>
+    function map_init_basic (map, options) {
+        var dataurl = 'api/v1/cases.geojson';
+        var geojsonLayer = new L.GeoJSON.AJAX(dataurl, {
+            onEachFeature: function (feature, layer) {
+                layer.bindPopup(feature.id.toString());
+            },
+        });
+        geojsonLayer.addTo(map);
+    }
+</script>
+{% leaflet_map "corona_map" callback="window.map_init_basic" %}
+</body>
 </html>
