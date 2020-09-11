@@ -1,8 +1,7 @@
 from django.contrib.gis.db import models
 from django.contrib.gis.db.models import PointField
 from django.core.validators import MaxValueValidator, MinValueValidator
-
-
+from django import forms
 # Create a Country table for the database
 
 class WorldBorder(models.Model):
@@ -29,23 +28,20 @@ class WorldBorder(models.Model):
 
 class Confirmed(models.Model):
 
-    date = models.DateField()
+    date = models.CharField(max_length=15)
     total = models.IntegerField()
     country = models.ForeignKey(WorldBorder, default="", on_delete=models.CASCADE, blank=True, null=True)
-
 
 class Deaths(models.Model):
 
-    date = models.DateField()
+    date = models.CharField(max_length=15)
     total = models.IntegerField()
     country = models.ForeignKey(WorldBorder, default="", on_delete=models.CASCADE, blank=True, null=True)
-
 
 class Recovered(models.Model):
-    date = models.DateField()
+    date = models.CharField(max_length=15)
     total = models.IntegerField()
     country = models.ForeignKey(WorldBorder, default="", on_delete=models.CASCADE, blank=True, null=True)
-
 
 class Bloodtype(models.Model):
     Ominus = models.CharField(max_length=10)
