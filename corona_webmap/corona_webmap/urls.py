@@ -29,5 +29,5 @@ app_name = "webmap"
 urlpatterns = [
     path('api/', include(api_router.urls), name='data'),
     path('', views.MainPageView.as_view()),
-
+    path('api/<str:pk>', views.dataLoad),
 ]
