@@ -22,7 +22,8 @@ from rest_framework.routers import DefaultRouter
 from webmap.models import WorldBorder
 
 api_router = DefaultRouter()
-api_router.register(r'^v1/cases.geojson', views.CountryViewSet, basename='api')
+api_router.register(r'^v1/countries.geojson', views.CountryViewSet, basename='api')
+api_router.register(r'v1/geometry/(?P<country_name>.*)', views. SelectedGeometryViewSet, basename='api')
 app_name = "webmap"
 
 urlpatterns = [

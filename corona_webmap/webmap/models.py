@@ -1,8 +1,6 @@
 from django.contrib.gis.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 
-from django.contrib.gis.geos import Point
-
 
 class WorldBorder(models.Model):
     # Regular Django fields corresponding to the attributes in the world borders shapefile.
@@ -33,16 +31,19 @@ class Confirmed(models.Model):
     total = models.IntegerField()
     country = models.ForeignKey(WorldBorder, default="", on_delete=models.CASCADE, blank=True, null=True)
 
+
 class Deaths(models.Model):
 
     date = models.CharField(max_length=15)
     total = models.IntegerField()
     country = models.ForeignKey(WorldBorder, default="", on_delete=models.CASCADE, blank=True, null=True)
 
+
 class Recovered(models.Model):
     date = models.CharField(max_length=15)
     total = models.IntegerField()
     country = models.ForeignKey(WorldBorder, default="", on_delete=models.CASCADE, blank=True, null=True)
+
 
 class Bloodtype(models.Model):
     Ominus = models.CharField(max_length=10)

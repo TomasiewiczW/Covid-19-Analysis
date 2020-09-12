@@ -12,5 +12,11 @@ class CountrySerializer(GeoFeatureModelSerializer):
     class Meta:
         model = WorldBorder
         geo_field = 'location'
-        fields = ('name', 'area', 'pop2005')
+        fields = ('name', 'pop2005',)
 
+
+class SelectedGeometrySerializer(GeoFeatureModelSerializer):
+    class Meta:
+        model = WorldBorder
+        geo_field = 'mpoly'
+        fields = ('name',)
