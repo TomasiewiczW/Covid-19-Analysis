@@ -36,6 +36,7 @@
                 layer.on('click', function (e) {
                     if (requested_geometry != null) { requested_geometry.removeFrom(map);}
                     var country = feature.id.toString();
+                    window.open('http://127.0.0.1:8000/api/'+country,'_blank');
                     requested_geometry = new L.GeoJSON.AJAX('api/v1/geometry/'+country, );
                     requested_geometry.addTo(map);
                 });
