@@ -19,6 +19,7 @@
         .django-leaflet-raw-textarea {
             width: 100%;
         }
+
     </style>
 </head>
 <body>
@@ -26,10 +27,21 @@
 <script>
 
 
+
     function map_init_basic (map, options) {
         var dataurl = 'api/v1/countries.geojson';
         var requested_geometry;
         var geojsonLayer = new L.GeoJSON.AJAX(dataurl, {
+            pointToLayer: function(feature, layer) {
+                var Icon = new L.Icon({
+                    iconSize: [10,10],
+                    iconAnchor: [0,0],
+                    popupAnchor: [5,5],
+                    iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/LACMTA_Circle_Blue_Line.svg/600px-LACMTA_Circle_Blue_Line.svg.png'
+                });
+                feature.geometry.coordinates.reverse();
+                return L.marker(feature.geometry.coordinates, {icon:Icon});
+            },
             onEachFeature: function (feature, layer) {
                 layer.bindPopup(feature.id.toString());
 
@@ -43,7 +55,6 @@
             },
         });
         geojsonLayer.addTo(map);
-
         var Stadia_AlidadeSmoothDark = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
             maxZoom: 20,
             attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
@@ -51,5 +62,6 @@
     }
 </script>
 {% leaflet_map "corona_map" callback="window.map_init_basic" %}
+
 </body>
 </html>
