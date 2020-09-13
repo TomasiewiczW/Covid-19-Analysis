@@ -34,6 +34,7 @@
                 layer.bindPopup(feature.id.toString());
 
                 layer.on('click', function (e) {
+                    if (requested_geometry != null) { requested_geometry.removeFrom(map);}
                     var country = feature.id.toString();
                     requested_geometry = new L.GeoJSON.AJAX('api/v1/geometry/'+country, );
                     requested_geometry.addTo(map);
