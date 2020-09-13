@@ -29,7 +29,7 @@ class Confirmed(models.Model):
 
     date = models.CharField(max_length=15)
     total = models.IntegerField()
-    country = models.ForeignKey(WorldBorder, default="", on_delete=models.CASCADE, blank=True, null=True)
+    country = models.ForeignKey(WorldBorder, default="", on_delete=models.CASCADE, blank=True, null=True, related_name='covid_confirmed')
 
 
 class Deaths(models.Model):
