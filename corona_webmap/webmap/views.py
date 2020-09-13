@@ -10,6 +10,7 @@ from webmap import models
 
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from rest_framework import status
 
 # Create your views here.
 class CountryViewSet(ReadOnlyModelViewSet):
@@ -41,19 +42,47 @@ def dataLoad(request,pk):
     try:
         country = models.WorldBorder.objects.get(name=pk)
     except models.WorldBorder.DoesNotExist:
-        return Response(status=status.HTTP_404_NOT_FOUND)
+        content = {pk:'No such country'}
+        return Response(content, status=status.HTTP_404_NOT_FOUND)
 
 
     #supplemental data
-    gdp = models.GDP.objects.get(country_id=country.name)
-    smoking = models.Smoking.objects.get(country_id=country.name)
-    healthcare = models.Healthcare.objects.get(country_id=country.name)
-    bloodtype = models.Bloodtype.objects.get(country_id=country.name)
+    try:
+        gdp = models.GDP.objects.get(country_id=country.name)
+    except models.GDP.DoesNotExist:
+        gdp = models.GDP(rank=None, gdpPerCapita=None)
+
+    try:
+        smoking = models.Smoking.objects.get(country_id=country.name)
+    except models.Smoking.DoesNotExist:
+        smoking = models.Smoking(male=None, female=None, total=None)
+
+    try:
+        healthcare = models.Healthcare.objects.get(country_id=country.name)
+    except models.Healthcare.DoesNotExist:
+        healthcare = models.Healthcare(rank=None, score=None)
+
+    try:
+        bloodtype = models.Bloodtype.objects.get(country_id=country.name)
+    except models.Bloodtype.DoesNotExist:
+        bloodtype = models.Bloodtype(Ominus=None, Oplus=None, Aminus=None, Bminus=None, Bplus=None, ABminus =None, ABplus=None)
 
     #covid data
-    confirmed = models.Confirmed.objects.filter(country_id=country.name).latest('date')
-    recovered = models.Recovered.objects.filter(country_id=country.name).latest('date')
-    deaths = models.Deaths.objects.filter(country_id=country.name).latest('date')
+    try:
+        confirmed = models.Confirmed.objects.filter(country_id=country.name).latest('date')
+    except models.Confirmed.DoesNotExist:
+        confirmed = models.Confirmed(date=None, total=None)
+
+    try:
+        recovered = models.Recovered.objects.filter(country_id=country.name).latest('date')
+    except models.Recovered.DoesNotExist:
+        recovered = models.Recovered(date=None, total=None)
+
+    try:
+        deaths = models.Deaths.objects.filter(country_id=country.name).latest('date')
+    except models.Deaths.DoesNotExist:
+        deaths = models.Deaths(date=None, total=None)
+
 
 
     all_data = {
