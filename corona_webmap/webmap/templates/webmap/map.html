@@ -43,8 +43,11 @@
 
 
     function map_init_basic (map, options) {
+        var div_supplemental_data = $('#div_supplemental_data'); // context saving purpose
         var dataurl = 'api/v1/countries.geojson';
         var requested_geometry;
+        var supplemental_data;
+
         var geojsonLayer = new L.GeoJSON.AJAX(dataurl, {
             pointToLayer: function(feature, layer) {
                 var Icon = new L.Icon({
@@ -58,11 +61,20 @@
             },
             onEachFeature: function (feature, layer) {
                 layer.bindPopup(feature.id.toString());
-
                 layer.on('click', function (e) {
-                    if (requested_geometry != null) { requested_geometry.removeFrom(map);}
+                    div_supplemental_data.html("<h1>Supplemental Data</h1>"); // clear old data
+                    if (requested_geometry != null) requested_geometry.removeFrom(map); // clear old geometry
+
                     var country = feature.id.toString();
-                    window.open('http://127.0.0.1:8000/api/'+country,'_blank');
+                    supplemental_data = jQuery.getJSON(url='api/'+country, function success(data) {
+                        var test = JSON.stringify(data);
+                        div_supplemental_data.append(
+                            $('<pre>').text(
+                                JSON.stringify(data, null, '   ')
+                            )
+                        );
+                        console.log(test);
+                    });
                     requested_geometry = new L.GeoJSON.AJAX('api/v1/geometry/'+country+'/', );
                     requested_geometry.addTo(map);
                 });
@@ -84,8 +96,8 @@
         {{ confirmed_total }}
     </h1>
 </div>
-<div class="supplemental_data">
-    <table>supplemental 1<br>supplemental 2</table>
+<div class="supplemental_data" id="div_supplemental_data">
+    <h1>Supplemental Data</h1>
 </div>
 
 </body>
