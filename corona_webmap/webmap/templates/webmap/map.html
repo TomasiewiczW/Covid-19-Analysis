@@ -11,19 +11,33 @@
     <script src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
     <style>
         .leaflet-container {  /* all maps */
-            width:  90%;
-            height: 90%;
-            position: center
+            width:  62%;
+            height: 100%;
+            float: right;
         }
         /* Resize the "display_raw" textbox */
         .django-leaflet-raw-textarea {
             width: 100%;
         }
+        .global_confirmed {
+            width: 35%;
+            padding: 5px;
+            margin-left: 10px;
 
+            display: inline-block;
+            border: 3px solid gray;
+        }
+        .supplemental_data {
+            width: 35%;
+            padding: 5px;
+            margin-left: 10px;
+            display: inline-table;
+            border: 3px solid gray;
+            float: left;
+        }
     </style>
 </head>
 <body>
-<h1>Corona Symptoms</h1>
 <script>
 
 
@@ -49,7 +63,7 @@
                     if (requested_geometry != null) { requested_geometry.removeFrom(map);}
                     var country = feature.id.toString();
                     window.open('http://127.0.0.1:8000/api/'+country,'_blank');
-                    requested_geometry = new L.GeoJSON.AJAX('api/v1/geometry/'+country, );
+                    requested_geometry = new L.GeoJSON.AJAX('api/v1/geometry/'+country+'/', );
                     requested_geometry.addTo(map);
                 });
             },
@@ -61,7 +75,18 @@
         }).addTo(map);
     }
 </script>
-{% leaflet_map "corona_map" callback="window.map_init_basic" %}
+<div class="map">
+    {% leaflet_map "corona_map" callback="window.map_init_basic" %}
+</div>
+<div class="global_confirmed">
+    <h1>
+        Global Confirmed:<br>
+        {{ confirmed_total }}
+    </h1>
+</div>
+<div class="supplemental_data">
+    <table>supplemental 1<br>supplemental 2</table>
+</div>
 
 </body>
 </html>
