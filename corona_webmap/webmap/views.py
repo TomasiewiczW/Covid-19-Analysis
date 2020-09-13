@@ -3,6 +3,7 @@ from rest_framework_gis.filters import InBBoxFilter
 from rest_framework_gis.pagination import GeoJsonPagination
 from django.views.generic import TemplateView
 from django.http import HttpResponse, JsonResponse
+from django.db.models import Max, Sum
 from webmap import models
 
 from .serializers import CountrySerializer, SelectedGeometrySerializer
@@ -11,6 +12,7 @@ from webmap import models
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
+
 
 # Create your views here.
 class CountryViewSet(ReadOnlyModelViewSet):
@@ -31,22 +33,24 @@ class SelectedGeometryViewSet(ReadOnlyModelViewSet):
 
 
 class MainPageView(TemplateView):
+    confirmed_total = models.Confirmed.objects.values('country_id__name').annotate(Max('total')).aggregate(Sum('total__max'))['total__max__sum']
     template_name = "webmap/map.html"
 
-    
+    def get_context_data(self, **context):
+        context['confirmed_total'] = self.confirmed_total
+        return context
+
+
 @api_view(['GET'])
-def dataLoad(request,pk):
-
-
-    #main class
+def dataLoad(request, pk):
+    # main class
     try:
         country = models.WorldBorder.objects.get(name=pk)
     except models.WorldBorder.DoesNotExist:
         content = {pk:'No such country'}
         return Response(content, status=status.HTTP_404_NOT_FOUND)
 
-
-    #supplemental data
+    # supplemental data
     try:
         gdp = models.GDP.objects.get(country_id=country.name)
     except models.GDP.DoesNotExist:
@@ -67,7 +71,7 @@ def dataLoad(request,pk):
     except models.Bloodtype.DoesNotExist:
         bloodtype = models.Bloodtype(Ominus=None, Oplus=None, Aminus=None, Bminus=None, Bplus=None, ABminus =None, ABplus=None)
 
-    #covid data
+    # covid data
     try:
         confirmed = models.Confirmed.objects.filter(country_id=country.name).latest('date')
     except models.Confirmed.DoesNotExist:
@@ -83,21 +87,19 @@ def dataLoad(request,pk):
     except models.Deaths.DoesNotExist:
         deaths = models.Deaths(date=None, total=None)
 
-
-
     all_data = {
         'Country':
             {
                 'name': country.name,
                 'area': country.area,
-                'pop2005':country.pop2005,
+                'pop2005': country.pop2005,
                 'fips': country.fips,
                 'iso2': country.iso2,
                 'iso3': country.iso3,
                 'un': country.un,
                 'region': country.region,
                 'subregion': country.subregion,
-                'lon':country.lon,
+                'lon': country.lon,
                 'lat': country.lat,
             },
         'Date': confirmed.date,
