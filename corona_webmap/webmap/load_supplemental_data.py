@@ -24,7 +24,7 @@ def run():
 
     print('___Bloodtype___')
     for x in bloodtypes.iterrows():
-        B = Bloodtype(Ominus=bloodtypes['Ominus'][x[0]], Oplus=bloodtypes['Oplus'][x[0]], Aminus=bloodtypes['Aminus'][x[0]], Bminus=bloodtypes['Bminus'][x[0]], Bplus=bloodtypes['Bplus'][x[0]], ABminus =bloodtypes['ABminus'][x[0]], ABplus=bloodtypes['ABplus'][x[0]])
+        B = Bloodtype(Ominus=bloodtypes['Ominus'][x[0]], Oplus=bloodtypes['Oplus'][x[0]], Aplus=bloodtypes['Aplus'][x[0]], Aminus=bloodtypes['Aminus'][x[0]], Bminus=bloodtypes['Bminus'][x[0]], Bplus=bloodtypes['Bplus'][x[0]], ABminus =bloodtypes['ABminus'][x[0]], ABplus=bloodtypes['ABplus'][x[0]])
         print(bloodtypes['country'][x[0]])
         try:
             B.country = WorldBorder.objects.get(name=bloodtypes['country'][x[0]])
