@@ -13,7 +13,13 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
 
-
+from django.shortcuts import render
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import io
+import urllib, base64
+import time
 # Create your views here.
 class CountryViewSet(ReadOnlyModelViewSet):
     queryset = models.WorldBorder.objects.all()
@@ -136,3 +142,60 @@ def dataLoad(request, pk):
     }
 
     return JsonResponse(all_data)
+
+
+def showimage(request, pk):
+
+
+    confirmed = models.Confirmed.objects.filter(country=pk)
+    deaths = models.Deaths.objects.filter(country=pk)
+    recovered = models.Recovered.objects.filter(country=pk)
+    c_total_list=[]
+    c_date_list=[]
+    d_total_list = []
+    d_date_list = []
+    r_total_list = []
+    r_date_list = []
+    for a in confirmed:
+        c_total_list = c_total_list + [a.total]
+        c_date_list = c_date_list + [a.date]
+
+    for a in deaths:
+        d_total_list = d_total_list + [a.total]
+        d_date_list = d_date_list + [a.date]
+
+    for a in recovered:
+        r_total_list = r_total_list + [a.total]
+        r_date_list = r_date_list + [a.date]
+
+
+    fig, axs = plt.subplots(3)
+    axs[0].plot(c_date_list,c_total_list)
+    axs[0].set_title('Confirmed')
+    axs[0].tick_params(axis = "x", which = "both", bottom = False, top = False)
+    axs[1].plot(d_date_list,d_total_list)
+    axs[1].set_title('Deaths')
+    axs[1].tick_params(axis="x", which="both", bottom=False, top=False)
+    axs[2].plot(r_date_list, r_total_list)
+    axs[2].set_title('Recovered')
+    axs[2].tick_params(axis="x", which="both", bottom=False, top=False)
+
+    axs[2].set(xlabel='Date')
+    axs[1].set(ylabel='Cases')
+    axs[0].grid(True)
+    axs[1].grid(True)
+    axs[2].grid(True)
+    
+    fig.tight_layout(pad=3.0)
+    fig = plt.gcf()
+
+    buf = io.BytesIO()
+    fig.savefig(buf, format='png')
+    fig.clf()
+    fig.clear()
+
+    buf.seek(0)
+    string = base64.b64encode(buf.read())
+    uri = urllib.parse.quote(string)
+
+    return render(request, 'subplot.html', {'data': uri})

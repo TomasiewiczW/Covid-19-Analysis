@@ -40,7 +40,7 @@ confirmed_id,country,date,confirmed_total
 38,Serbia,1/22/20,0
 39,AUnited Statestralia,1/22/20,0
 40,Burma,1/22/20,0
-41,Korea, Republic of,1/22/20,1
+41, Republic of,1/22/20,1
 42,Mexico,1/22/20,0
 43,Oman,1/22/20,0
 44,Pakistan,1/22/20,0
@@ -227,7 +227,7 @@ confirmed_id,country,date,confirmed_total
 225,Serbia,1/23/20,0
 226,AUnited Statestralia,1/23/20,0
 227,Burma,1/23/20,0
-228,Korea, Republic of,1/23/20,1
+228, Republic of,1/23/20,1
 229,Mexico,1/23/20,0
 230,Oman,1/23/20,0
 231,Pakistan,1/23/20,0
@@ -414,7 +414,7 @@ confirmed_id,country,date,confirmed_total
 412,Serbia,1/24/20,0
 413,AUnited Statestralia,1/24/20,0
 414,Burma,1/24/20,0
-415,Korea, Republic of,1/24/20,2
+415, Republic of,1/24/20,2
 416,Mexico,1/24/20,0
 417,Oman,1/24/20,0
 418,Pakistan,1/24/20,0
@@ -601,7 +601,7 @@ confirmed_id,country,date,confirmed_total
 599,Serbia,1/25/20,0
 600,AUnited Statestralia,1/25/20,0
 601,Burma,1/25/20,0
-602,Korea, Republic of,1/25/20,2
+602, Republic of,1/25/20,2
 603,Mexico,1/25/20,0
 604,Oman,1/25/20,0
 605,Pakistan,1/25/20,0
@@ -788,7 +788,7 @@ confirmed_id,country,date,confirmed_total
 786,Serbia,1/26/20,0
 787,AUnited Statestralia,1/26/20,4
 788,Burma,1/26/20,0
-789,Korea, Republic of,1/26/20,3
+789, Republic of,1/26/20,3
 790,Mexico,1/26/20,0
 791,Oman,1/26/20,0
 792,Pakistan,1/26/20,0
@@ -975,7 +975,7 @@ confirmed_id,country,date,confirmed_total
 973,Serbia,1/27/20,0
 974,AUnited Statestralia,1/27/20,5
 975,Burma,1/27/20,0
-976,Korea, Republic of,1/27/20,4
+976, Republic of,1/27/20,4
 977,Mexico,1/27/20,0
 978,Oman,1/27/20,0
 979,Pakistan,1/27/20,0
@@ -1162,7 +1162,7 @@ confirmed_id,country,date,confirmed_total
 1160,Serbia,1/28/20,0
 1161,AUnited Statestralia,1/28/20,5
 1162,Burma,1/28/20,0
-1163,Korea, Republic of,1/28/20,4
+1163, Republic of,1/28/20,4
 1164,Mexico,1/28/20,0
 1165,Oman,1/28/20,0
 1166,Pakistan,1/28/20,0
@@ -1349,7 +1349,7 @@ confirmed_id,country,date,confirmed_total
 1347,Serbia,1/29/20,0
 1348,AUnited Statestralia,1/29/20,6
 1349,Burma,1/29/20,0
-1350,Korea, Republic of,1/29/20,4
+1350, Republic of,1/29/20,4
 1351,Mexico,1/29/20,0
 1352,Oman,1/29/20,0
 1353,Pakistan,1/29/20,0
@@ -1536,7 +1536,7 @@ confirmed_id,country,date,confirmed_total
 1534,Serbia,1/30/20,0
 1535,AUnited Statestralia,1/30/20,9
 1536,Burma,1/30/20,0
-1537,Korea, Republic of,1/30/20,4
+1537, Republic of,1/30/20,4
 1538,Mexico,1/30/20,0
 1539,Oman,1/30/20,0
 1540,Pakistan,1/30/20,0
@@ -1723,7 +1723,7 @@ confirmed_id,country,date,confirmed_total
 1721,Serbia,1/31/20,0
 1722,AUnited Statestralia,1/31/20,9
 1723,Burma,1/31/20,0
-1724,Korea, Republic of,1/31/20,11
+1724, Republic of,1/31/20,11
 1725,Mexico,1/31/20,0
 1726,Oman,1/31/20,0
 1727,Pakistan,1/31/20,0
@@ -1910,7 +1910,7 @@ confirmed_id,country,date,confirmed_total
 1908,Serbia,2/1/20,0
 1909,AUnited Statestralia,2/1/20,12
 1910,Burma,2/1/20,0
-1911,Korea, Republic of,2/1/20,12
+1911, Republic of,2/1/20,12
 1912,Mexico,2/1/20,0
 1913,Oman,2/1/20,0
 1914,Pakistan,2/1/20,0
@@ -2097,7 +2097,7 @@ confirmed_id,country,date,confirmed_total
 2095,Serbia,2/2/20,0
 2096,AUnited Statestralia,2/2/20,12
 2097,Burma,2/2/20,0
-2098,Korea, Republic of,2/2/20,15
+2098, Republic of,2/2/20,15
 2099,Mexico,2/2/20,0
 2100,Oman,2/2/20,0
 2101,Pakistan,2/2/20,0
@@ -2284,7 +2284,7 @@ confirmed_id,country,date,confirmed_total
 2282,Serbia,2/3/20,0
 2283,AUnited Statestralia,2/3/20,12
 2284,Burma,2/3/20,0
-2285,Korea, Republic of,2/3/20,15
+2285, Republic of,2/3/20,15
 2286,Mexico,2/3/20,0
 2287,Oman,2/3/20,0
 2288,Pakistan,2/3/20,0
@@ -2471,7 +2471,7 @@ confirmed_id,country,date,confirmed_total
 2469,Serbia,2/4/20,0
 2470,AUnited Statestralia,2/4/20,13
 2471,Burma,2/4/20,0
-2472,Korea, Republic of,2/4/20,16
+2472, Republic of,2/4/20,16
 2473,Mexico,2/4/20,0
 2474,Oman,2/4/20,0
 2475,Pakistan,2/4/20,0
@@ -2658,7 +2658,7 @@ confirmed_id,country,date,confirmed_total
 2656,Serbia,2/5/20,0
 2657,AUnited Statestralia,2/5/20,13
 2658,Burma,2/5/20,0
-2659,Korea, Republic of,2/5/20,19
+2659, Republic of,2/5/20,19
 2660,Mexico,2/5/20,0
 2661,Oman,2/5/20,0
 2662,Pakistan,2/5/20,0
@@ -2845,7 +2845,7 @@ confirmed_id,country,date,confirmed_total
 2843,Serbia,2/6/20,0
 2844,AUnited Statestralia,2/6/20,14
 2845,Burma,2/6/20,0
-2846,Korea, Republic of,2/6/20,23
+2846, Republic of,2/6/20,23
 2847,Mexico,2/6/20,0
 2848,Oman,2/6/20,0
 2849,Pakistan,2/6/20,0
@@ -3032,7 +3032,7 @@ confirmed_id,country,date,confirmed_total
 3030,Serbia,2/7/20,0
 3031,AUnited Statestralia,2/7/20,15
 3032,Burma,2/7/20,0
-3033,Korea, Republic of,2/7/20,24
+3033, Republic of,2/7/20,24
 3034,Mexico,2/7/20,0
 3035,Oman,2/7/20,0
 3036,Pakistan,2/7/20,0
@@ -3219,7 +3219,7 @@ confirmed_id,country,date,confirmed_total
 3217,Serbia,2/8/20,0
 3218,AUnited Statestralia,2/8/20,15
 3219,Burma,2/8/20,0
-3220,Korea, Republic of,2/8/20,24
+3220, Republic of,2/8/20,24
 3221,Mexico,2/8/20,0
 3222,Oman,2/8/20,0
 3223,Pakistan,2/8/20,0
@@ -3406,7 +3406,7 @@ confirmed_id,country,date,confirmed_total
 3404,Serbia,2/9/20,0
 3405,AUnited Statestralia,2/9/20,15
 3406,Burma,2/9/20,0
-3407,Korea, Republic of,2/9/20,25
+3407, Republic of,2/9/20,25
 3408,Mexico,2/9/20,0
 3409,Oman,2/9/20,0
 3410,Pakistan,2/9/20,0
@@ -3593,7 +3593,7 @@ confirmed_id,country,date,confirmed_total
 3591,Serbia,2/10/20,0
 3592,AUnited Statestralia,2/10/20,15
 3593,Burma,2/10/20,0
-3594,Korea, Republic of,2/10/20,27
+3594, Republic of,2/10/20,27
 3595,Mexico,2/10/20,0
 3596,Oman,2/10/20,0
 3597,Pakistan,2/10/20,0
@@ -3780,7 +3780,7 @@ confirmed_id,country,date,confirmed_total
 3778,Serbia,2/11/20,0
 3779,AUnited Statestralia,2/11/20,15
 3780,Burma,2/11/20,0
-3781,Korea, Republic of,2/11/20,28
+3781, Republic of,2/11/20,28
 3782,Mexico,2/11/20,0
 3783,Oman,2/11/20,0
 3784,Pakistan,2/11/20,0
@@ -3967,7 +3967,7 @@ confirmed_id,country,date,confirmed_total
 3965,Serbia,2/12/20,0
 3966,AUnited Statestralia,2/12/20,15
 3967,Burma,2/12/20,0
-3968,Korea, Republic of,2/12/20,28
+3968, Republic of,2/12/20,28
 3969,Mexico,2/12/20,0
 3970,Oman,2/12/20,0
 3971,Pakistan,2/12/20,0
@@ -4154,7 +4154,7 @@ confirmed_id,country,date,confirmed_total
 4152,Serbia,2/13/20,0
 4153,AUnited Statestralia,2/13/20,15
 4154,Burma,2/13/20,0
-4155,Korea, Republic of,2/13/20,28
+4155, Republic of,2/13/20,28
 4156,Mexico,2/13/20,0
 4157,Oman,2/13/20,0
 4158,Pakistan,2/13/20,0
@@ -4341,7 +4341,7 @@ confirmed_id,country,date,confirmed_total
 4339,Serbia,2/14/20,0
 4340,AUnited Statestralia,2/14/20,15
 4341,Burma,2/14/20,0
-4342,Korea, Republic of,2/14/20,28
+4342, Republic of,2/14/20,28
 4343,Mexico,2/14/20,0
 4344,Oman,2/14/20,0
 4345,Pakistan,2/14/20,0
@@ -4528,7 +4528,7 @@ confirmed_id,country,date,confirmed_total
 4526,Serbia,2/15/20,0
 4527,AUnited Statestralia,2/15/20,15
 4528,Burma,2/15/20,0
-4529,Korea, Republic of,2/15/20,28
+4529, Republic of,2/15/20,28
 4530,Mexico,2/15/20,0
 4531,Oman,2/15/20,0
 4532,Pakistan,2/15/20,0
@@ -4715,7 +4715,7 @@ confirmed_id,country,date,confirmed_total
 4713,Serbia,2/16/20,0
 4714,AUnited Statestralia,2/16/20,15
 4715,Burma,2/16/20,0
-4716,Korea, Republic of,2/16/20,29
+4716, Republic of,2/16/20,29
 4717,Mexico,2/16/20,0
 4718,Oman,2/16/20,0
 4719,Pakistan,2/16/20,0
@@ -4902,7 +4902,7 @@ confirmed_id,country,date,confirmed_total
 4900,Serbia,2/17/20,0
 4901,AUnited Statestralia,2/17/20,15
 4902,Burma,2/17/20,0
-4903,Korea, Republic of,2/17/20,30
+4903, Republic of,2/17/20,30
 4904,Mexico,2/17/20,0
 4905,Oman,2/17/20,0
 4906,Pakistan,2/17/20,0
@@ -5089,7 +5089,7 @@ confirmed_id,country,date,confirmed_total
 5087,Serbia,2/18/20,0
 5088,AUnited Statestralia,2/18/20,15
 5089,Burma,2/18/20,0
-5090,Korea, Republic of,2/18/20,31
+5090, Republic of,2/18/20,31
 5091,Mexico,2/18/20,0
 5092,Oman,2/18/20,0
 5093,Pakistan,2/18/20,0
@@ -5276,7 +5276,7 @@ confirmed_id,country,date,confirmed_total
 5274,Serbia,2/19/20,0
 5275,AUnited Statestralia,2/19/20,15
 5276,Burma,2/19/20,0
-5277,Korea, Republic of,2/19/20,31
+5277, Republic of,2/19/20,31
 5278,Mexico,2/19/20,0
 5279,Oman,2/19/20,0
 5280,Pakistan,2/19/20,0
@@ -5463,7 +5463,7 @@ confirmed_id,country,date,confirmed_total
 5461,Serbia,2/20/20,0
 5462,AUnited Statestralia,2/20/20,15
 5463,Burma,2/20/20,0
-5464,Korea, Republic of,2/20/20,104
+5464, Republic of,2/20/20,104
 5465,Mexico,2/20/20,0
 5466,Oman,2/20/20,0
 5467,Pakistan,2/20/20,0
@@ -5650,7 +5650,7 @@ confirmed_id,country,date,confirmed_total
 5648,Serbia,2/21/20,0
 5649,AUnited Statestralia,2/21/20,15
 5650,Burma,2/21/20,0
-5651,Korea, Republic of,2/21/20,204
+5651, Republic of,2/21/20,204
 5652,Mexico,2/21/20,0
 5653,Oman,2/21/20,0
 5654,Pakistan,2/21/20,0
@@ -5837,7 +5837,7 @@ confirmed_id,country,date,confirmed_total
 5835,Serbia,2/22/20,0
 5836,AUnited Statestralia,2/22/20,15
 5837,Burma,2/22/20,0
-5838,Korea, Republic of,2/22/20,433
+5838, Republic of,2/22/20,433
 5839,Mexico,2/22/20,0
 5840,Oman,2/22/20,0
 5841,Pakistan,2/22/20,0
@@ -6024,7 +6024,7 @@ confirmed_id,country,date,confirmed_total
 6022,Serbia,2/23/20,0
 6023,AUnited Statestralia,2/23/20,15
 6024,Burma,2/23/20,0
-6025,Korea, Republic of,2/23/20,602
+6025, Republic of,2/23/20,602
 6026,Mexico,2/23/20,0
 6027,Oman,2/23/20,0
 6028,Pakistan,2/23/20,0
@@ -6211,7 +6211,7 @@ confirmed_id,country,date,confirmed_total
 6209,Serbia,2/24/20,0
 6210,AUnited Statestralia,2/24/20,15
 6211,Burma,2/24/20,0
-6212,Korea, Republic of,2/24/20,833
+6212, Republic of,2/24/20,833
 6213,Mexico,2/24/20,0
 6214,Oman,2/24/20,2
 6215,Pakistan,2/24/20,0
@@ -6398,7 +6398,7 @@ confirmed_id,country,date,confirmed_total
 6396,Serbia,2/25/20,0
 6397,AUnited Statestralia,2/25/20,15
 6398,Burma,2/25/20,0
-6399,Korea, Republic of,2/25/20,977
+6399, Republic of,2/25/20,977
 6400,Mexico,2/25/20,0
 6401,Oman,2/25/20,2
 6402,Pakistan,2/25/20,2
@@ -6585,7 +6585,7 @@ confirmed_id,country,date,confirmed_total
 6583,Serbia,2/26/20,0
 6584,AUnited Statestralia,2/26/20,15
 6585,Burma,2/26/20,0
-6586,Korea, Republic of,2/26/20,1261
+6586, Republic of,2/26/20,1261
 6587,Mexico,2/26/20,0
 6588,Oman,2/26/20,4
 6589,Pakistan,2/26/20,2
@@ -6772,7 +6772,7 @@ confirmed_id,country,date,confirmed_total
 6770,Serbia,2/27/20,0
 6771,AUnited Statestralia,2/27/20,15
 6772,Burma,2/27/20,0
-6773,Korea, Republic of,2/27/20,1766
+6773, Republic of,2/27/20,1766
 6774,Mexico,2/27/20,0
 6775,Oman,2/27/20,4
 6776,Pakistan,2/27/20,2
@@ -6959,7 +6959,7 @@ confirmed_id,country,date,confirmed_total
 6957,Serbia,2/28/20,0
 6958,AUnited Statestralia,2/28/20,15
 6959,Burma,2/28/20,0
-6960,Korea, Republic of,2/28/20,2337
+6960, Republic of,2/28/20,2337
 6961,Mexico,2/28/20,1
 6962,Oman,2/28/20,4
 6963,Pakistan,2/28/20,4
@@ -7146,7 +7146,7 @@ confirmed_id,country,date,confirmed_total
 7144,Serbia,2/29/20,0
 7145,AUnited Statestralia,2/29/20,25
 7146,Burma,2/29/20,0
-7147,Korea, Republic of,2/29/20,3150
+7147, Republic of,2/29/20,3150
 7148,Mexico,2/29/20,4
 7149,Oman,2/29/20,6
 7150,Pakistan,2/29/20,4
@@ -7333,7 +7333,7 @@ confirmed_id,country,date,confirmed_total
 7331,Serbia,3/1/20,0
 7332,AUnited Statestralia,3/1/20,27
 7333,Burma,3/1/20,0
-7334,Korea, Republic of,3/1/20,3736
+7334, Republic of,3/1/20,3736
 7335,Mexico,3/1/20,5
 7336,Oman,3/1/20,6
 7337,Pakistan,3/1/20,4
@@ -7520,7 +7520,7 @@ confirmed_id,country,date,confirmed_total
 7518,Serbia,3/2/20,0
 7519,AUnited Statestralia,3/2/20,30
 7520,Burma,3/2/20,0
-7521,Korea, Republic of,3/2/20,4335
+7521, Republic of,3/2/20,4335
 7522,Mexico,3/2/20,5
 7523,Oman,3/2/20,6
 7524,Pakistan,3/2/20,5
@@ -7707,7 +7707,7 @@ confirmed_id,country,date,confirmed_total
 7705,Serbia,3/3/20,0
 7706,AUnited Statestralia,3/3/20,39
 7707,Burma,3/3/20,0
-7708,Korea, Republic of,3/3/20,5186
+7708, Republic of,3/3/20,5186
 7709,Mexico,3/3/20,5
 7710,Oman,3/3/20,12
 7711,Pakistan,3/3/20,5
@@ -7894,7 +7894,7 @@ confirmed_id,country,date,confirmed_total
 7892,Serbia,3/4/20,0
 7893,AUnited Statestralia,3/4/20,52
 7894,Burma,3/4/20,0
-7895,Korea, Republic of,3/4/20,5621
+7895, Republic of,3/4/20,5621
 7896,Mexico,3/4/20,5
 7897,Oman,3/4/20,15
 7898,Pakistan,3/4/20,5
@@ -8081,7 +8081,7 @@ confirmed_id,country,date,confirmed_total
 8079,Serbia,3/5/20,0
 8080,AUnited Statestralia,3/5/20,55
 8081,Burma,3/5/20,0
-8082,Korea, Republic of,3/5/20,6088
+8082, Republic of,3/5/20,6088
 8083,Mexico,3/5/20,5
 8084,Oman,3/5/20,16
 8085,Pakistan,3/5/20,6
@@ -8268,7 +8268,7 @@ confirmed_id,country,date,confirmed_total
 8266,Serbia,3/6/20,1
 8267,AUnited Statestralia,3/6/20,60
 8268,Burma,3/6/20,0
-8269,Korea, Republic of,3/6/20,6593
+8269, Republic of,3/6/20,6593
 8270,Mexico,3/6/20,6
 8271,Oman,3/6/20,16
 8272,Pakistan,3/6/20,6
@@ -8455,7 +8455,7 @@ confirmed_id,country,date,confirmed_total
 8453,Serbia,3/7/20,1
 8454,AUnited Statestralia,3/7/20,63
 8455,Burma,3/7/20,0
-8456,Korea, Republic of,3/7/20,7041
+8456, Republic of,3/7/20,7041
 8457,Mexico,3/7/20,6
 8458,Oman,3/7/20,16
 8459,Pakistan,3/7/20,6
@@ -8642,7 +8642,7 @@ confirmed_id,country,date,confirmed_total
 8640,Serbia,3/8/20,1
 8641,AUnited Statestralia,3/8/20,76
 8642,Burma,3/8/20,0
-8643,Korea, Republic of,3/8/20,7314
+8643, Republic of,3/8/20,7314
 8644,Mexico,3/8/20,7
 8645,Oman,3/8/20,16
 8646,Pakistan,3/8/20,6
@@ -8829,7 +8829,7 @@ confirmed_id,country,date,confirmed_total
 8827,Serbia,3/9/20,1
 8828,AUnited Statestralia,3/9/20,91
 8829,Burma,3/9/20,0
-8830,Korea, Republic of,3/9/20,7478
+8830, Republic of,3/9/20,7478
 8831,Mexico,3/9/20,7
 8832,Oman,3/9/20,16
 8833,Pakistan,3/9/20,16
@@ -9016,7 +9016,7 @@ confirmed_id,country,date,confirmed_total
 9014,Serbia,3/10/20,5
 9015,AUnited Statestralia,3/10/20,107
 9016,Burma,3/10/20,0
-9017,Korea, Republic of,3/10/20,7513
+9017, Republic of,3/10/20,7513
 9018,Mexico,3/10/20,7
 9019,Oman,3/10/20,18
 9020,Pakistan,3/10/20,19
@@ -9203,7 +9203,7 @@ confirmed_id,country,date,confirmed_total
 9201,Serbia,3/11/20,12
 9202,AUnited Statestralia,3/11/20,128
 9203,Burma,3/11/20,0
-9204,Korea, Republic of,3/11/20,7755
+9204, Republic of,3/11/20,7755
 9205,Mexico,3/11/20,8
 9206,Oman,3/11/20,18
 9207,Pakistan,3/11/20,20
@@ -9390,7 +9390,7 @@ confirmed_id,country,date,confirmed_total
 9388,Serbia,3/12/20,19
 9389,AUnited Statestralia,3/12/20,128
 9390,Burma,3/12/20,0
-9391,Korea, Republic of,3/12/20,7869
+9391, Republic of,3/12/20,7869
 9392,Mexico,3/12/20,12
 9393,Oman,3/12/20,18
 9394,Pakistan,3/12/20,28
@@ -9577,7 +9577,7 @@ confirmed_id,country,date,confirmed_total
 9575,Serbia,3/13/20,35
 9576,AUnited Statestralia,3/13/20,200
 9577,Burma,3/13/20,0
-9578,Korea, Republic of,3/13/20,7979
+9578, Republic of,3/13/20,7979
 9579,Mexico,3/13/20,26
 9580,Oman,3/13/20,19
 9581,Pakistan,3/13/20,31
@@ -9764,7 +9764,7 @@ confirmed_id,country,date,confirmed_total
 9762,Serbia,3/14/20,46
 9763,AUnited Statestralia,3/14/20,250
 9764,Burma,3/14/20,0
-9765,Korea, Republic of,3/14/20,8086
+9765, Republic of,3/14/20,8086
 9766,Mexico,3/14/20,41
 9767,Oman,3/14/20,19
 9768,Pakistan,3/14/20,53
@@ -9951,7 +9951,7 @@ confirmed_id,country,date,confirmed_total
 9949,Serbia,3/15/20,48
 9950,AUnited Statestralia,3/15/20,297
 9951,Burma,3/15/20,0
-9952,Korea, Republic of,3/15/20,8162
+9952, Republic of,3/15/20,8162
 9953,Mexico,3/15/20,53
 9954,Oman,3/15/20,22
 9955,Pakistan,3/15/20,136
@@ -10138,7 +10138,7 @@ confirmed_id,country,date,confirmed_total
 10136,Serbia,3/16/20,55
 10137,AUnited Statestralia,3/16/20,377
 10138,Burma,3/16/20,0
-10139,Korea, Republic of,3/16/20,8236
+10139, Republic of,3/16/20,8236
 10140,Mexico,3/16/20,82
 10141,Oman,3/16/20,22
 10142,Pakistan,3/16/20,236
@@ -10325,7 +10325,7 @@ confirmed_id,country,date,confirmed_total
 10323,Serbia,3/17/20,65
 10324,AUnited Statestralia,3/17/20,452
 10325,Burma,3/17/20,0
-10326,Korea, Republic of,3/17/20,8320
+10326, Republic of,3/17/20,8320
 10327,Mexico,3/17/20,93
 10328,Oman,3/17/20,24
 10329,Pakistan,3/17/20,299
@@ -10512,7 +10512,7 @@ confirmed_id,country,date,confirmed_total
 10510,Serbia,3/18/20,83
 10511,AUnited Statestralia,3/18/20,568
 10512,Burma,3/18/20,0
-10513,Korea, Republic of,3/18/20,8413
+10513, Republic of,3/18/20,8413
 10514,Mexico,3/18/20,118
 10515,Oman,3/18/20,39
 10516,Pakistan,3/18/20,454
@@ -10699,7 +10699,7 @@ confirmed_id,country,date,confirmed_total
 10697,Serbia,3/19/20,103
 10698,AUnited Statestralia,3/19/20,681
 10699,Burma,3/19/20,0
-10700,Korea, Republic of,3/19/20,8565
+10700, Republic of,3/19/20,8565
 10701,Mexico,3/19/20,164
 10702,Oman,3/19/20,48
 10703,Pakistan,3/19/20,501
@@ -10886,7 +10886,7 @@ confirmed_id,country,date,confirmed_total
 10884,Serbia,3/20/20,135
 10885,AUnited Statestralia,3/20/20,791
 10886,Burma,3/20/20,0
-10887,Korea, Republic of,3/20/20,8652
+10887, Republic of,3/20/20,8652
 10888,Mexico,3/20/20,203
 10889,Oman,3/20/20,48
 10890,Pakistan,3/20/20,730
@@ -11073,7 +11073,7 @@ confirmed_id,country,date,confirmed_total
 11071,Serbia,3/21/20,171
 11072,AUnited Statestralia,3/21/20,1071
 11073,Burma,3/21/20,0
-11074,Korea, Republic of,3/21/20,8799
+11074, Republic of,3/21/20,8799
 11075,Mexico,3/21/20,251
 11076,Oman,3/21/20,52
 11077,Pakistan,3/21/20,776
@@ -11260,7 +11260,7 @@ confirmed_id,country,date,confirmed_total
 11258,Serbia,3/22/20,222
 11259,AUnited Statestralia,3/22/20,1549
 11260,Burma,3/22/20,0
-11261,Korea, Republic of,3/22/20,8961
+11261, Republic of,3/22/20,8961
 11262,Mexico,3/22/20,316
 11263,Oman,3/22/20,55
 11264,Pakistan,3/22/20,875
@@ -11447,7 +11447,7 @@ confirmed_id,country,date,confirmed_total
 11445,Serbia,3/23/20,249
 11446,AUnited Statestralia,3/23/20,1682
 11447,Burma,3/23/20,0
-11448,Korea, Republic of,3/23/20,8961
+11448, Republic of,3/23/20,8961
 11449,Mexico,3/23/20,367
 11450,Oman,3/23/20,66
 11451,Pakistan,3/23/20,972
@@ -11634,7 +11634,7 @@ confirmed_id,country,date,confirmed_total
 11632,Serbia,3/24/20,303
 11633,AUnited Statestralia,3/24/20,2044
 11634,Burma,3/24/20,0
-11635,Korea, Republic of,3/24/20,9037
+11635, Republic of,3/24/20,9037
 11636,Mexico,3/24/20,405
 11637,Oman,3/24/20,84
 11638,Pakistan,3/24/20,1063
@@ -11821,7 +11821,7 @@ confirmed_id,country,date,confirmed_total
 11819,Serbia,3/25/20,384
 11820,AUnited Statestralia,3/25/20,2364
 11821,Burma,3/25/20,0
-11822,Korea, Republic of,3/25/20,9137
+11822, Republic of,3/25/20,9137
 11823,Mexico,3/25/20,475
 11824,Oman,3/25/20,99
 11825,Pakistan,3/25/20,1201
@@ -12008,7 +12008,7 @@ confirmed_id,country,date,confirmed_total
 12006,Serbia,3/26/20,384
 12007,AUnited Statestralia,3/26/20,2810
 12008,Burma,3/26/20,0
-12009,Korea, Republic of,3/26/20,9241
+12009, Republic of,3/26/20,9241
 12010,Mexico,3/26/20,585
 12011,Oman,3/26/20,109
 12012,Pakistan,3/26/20,1373
@@ -12195,7 +12195,7 @@ confirmed_id,country,date,confirmed_total
 12193,Serbia,3/27/20,457
 12194,AUnited Statestralia,3/27/20,3143
 12195,Burma,3/27/20,8
-12196,Korea, Republic of,3/27/20,9332
+12196, Republic of,3/27/20,9332
 12197,Mexico,3/27/20,717
 12198,Oman,3/27/20,131
 12199,Pakistan,3/27/20,1495
@@ -12382,7 +12382,7 @@ confirmed_id,country,date,confirmed_total
 12380,Serbia,3/28/20,659
 12381,AUnited Statestralia,3/28/20,3640
 12382,Burma,3/28/20,8
-12383,Korea, Republic of,3/28/20,9478
+12383, Republic of,3/28/20,9478
 12384,Mexico,3/28/20,848
 12385,Oman,3/28/20,152
 12386,Pakistan,3/28/20,1597
@@ -12569,7 +12569,7 @@ confirmed_id,country,date,confirmed_total
 12567,Serbia,3/29/20,741
 12568,AUnited Statestralia,3/29/20,3984
 12569,Burma,3/29/20,10
-12570,Korea, Republic of,3/29/20,9583
+12570, Republic of,3/29/20,9583
 12571,Mexico,3/29/20,993
 12572,Oman,3/29/20,167
 12573,Pakistan,3/29/20,1717
@@ -12756,7 +12756,7 @@ confirmed_id,country,date,confirmed_total
 12754,Serbia,3/30/20,785
 12755,AUnited Statestralia,3/30/20,4361
 12756,Burma,3/30/20,14
-12757,Korea, Republic of,3/30/20,9661
+12757, Republic of,3/30/20,9661
 12758,Mexico,3/30/20,1094
 12759,Oman,3/30/20,179
 12760,Pakistan,3/30/20,1938
@@ -12943,7 +12943,7 @@ confirmed_id,country,date,confirmed_total
 12941,Serbia,3/31/20,900
 12942,AUnited Statestralia,3/31/20,4559
 12943,Burma,3/31/20,15
-12944,Korea, Republic of,3/31/20,9786
+12944, Republic of,3/31/20,9786
 12945,Mexico,3/31/20,1215
 12946,Oman,3/31/20,192
 12947,Pakistan,3/31/20,2118
@@ -13130,7 +13130,7 @@ confirmed_id,country,date,confirmed_total
 13128,Serbia,4/1/20,1060
 13129,AUnited Statestralia,4/1/20,4862
 13130,Burma,4/1/20,15
-13131,Korea, Republic of,4/1/20,9887
+13131, Republic of,4/1/20,9887
 13132,Mexico,4/1/20,1378
 13133,Oman,4/1/20,210
 13134,Pakistan,4/1/20,2421
@@ -13317,7 +13317,7 @@ confirmed_id,country,date,confirmed_total
 13315,Serbia,4/2/20,1171
 13316,AUnited Statestralia,4/2/20,5116
 13317,Burma,4/2/20,20
-13318,Korea, Republic of,4/2/20,9976
+13318, Republic of,4/2/20,9976
 13319,Mexico,4/2/20,1510
 13320,Oman,4/2/20,231
 13321,Pakistan,4/2/20,2686
@@ -13504,7 +13504,7 @@ confirmed_id,country,date,confirmed_total
 13502,Serbia,4/3/20,1476
 13503,AUnited Statestralia,4/3/20,5330
 13504,Burma,4/3/20,20
-13505,Korea, Republic of,4/3/20,10062
+13505, Republic of,4/3/20,10062
 13506,Mexico,4/3/20,1688
 13507,Oman,4/3/20,252
 13508,Pakistan,4/3/20,2818
@@ -13691,7 +13691,7 @@ confirmed_id,country,date,confirmed_total
 13689,Serbia,4/4/20,1624
 13690,AUnited Statestralia,4/4/20,5550
 13691,Burma,4/4/20,21
-13692,Korea, Republic of,4/4/20,10156
+13692, Republic of,4/4/20,10156
 13693,Mexico,4/4/20,1890
 13694,Oman,4/4/20,277
 13695,Pakistan,4/4/20,3157
@@ -13878,7 +13878,7 @@ confirmed_id,country,date,confirmed_total
 13876,Serbia,4/5/20,1908
 13877,AUnited Statestralia,4/5/20,5687
 13878,Burma,4/5/20,21
-13879,Korea, Republic of,4/5/20,10237
+13879, Republic of,4/5/20,10237
 13880,Mexico,4/5/20,2143
 13881,Oman,4/5/20,298
 13882,Pakistan,4/5/20,3766
@@ -14065,7 +14065,7 @@ confirmed_id,country,date,confirmed_total
 14063,Serbia,4/6/20,2200
 14064,AUnited Statestralia,4/6/20,5797
 14065,Burma,4/6/20,22
-14066,Korea, Republic of,4/6/20,10284
+14066, Republic of,4/6/20,10284
 14067,Mexico,4/6/20,2439
 14068,Oman,4/6/20,331
 14069,Pakistan,4/6/20,4035
@@ -14252,7 +14252,7 @@ confirmed_id,country,date,confirmed_total
 14250,Serbia,4/7/20,2447
 14251,AUnited Statestralia,4/7/20,5895
 14252,Burma,4/7/20,22
-14253,Korea, Republic of,4/7/20,10331
+14253, Republic of,4/7/20,10331
 14254,Mexico,4/7/20,2785
 14255,Oman,4/7/20,371
 14256,Pakistan,4/7/20,4263
@@ -14439,7 +14439,7 @@ confirmed_id,country,date,confirmed_total
 14437,Serbia,4/8/20,2666
 14438,AUnited Statestralia,4/8/20,6010
 14439,Burma,4/8/20,22
-14440,Korea, Republic of,4/8/20,10384
+14440, Republic of,4/8/20,10384
 14441,Mexico,4/8/20,3181
 14442,Oman,4/8/20,419
 14443,Pakistan,4/8/20,4489
@@ -14626,7 +14626,7 @@ confirmed_id,country,date,confirmed_total
 14624,Serbia,4/9/20,2867
 14625,AUnited Statestralia,4/9/20,6108
 14626,Burma,4/9/20,23
-14627,Korea, Republic of,4/9/20,10423
+14627, Republic of,4/9/20,10423
 14628,Mexico,4/9/20,3441
 14629,Oman,4/9/20,457
 14630,Pakistan,4/9/20,4695
@@ -14813,7 +14813,7 @@ confirmed_id,country,date,confirmed_total
 14811,Serbia,4/10/20,3105
 14812,AUnited Statestralia,4/10/20,6215
 14813,Burma,4/10/20,27
-14814,Korea, Republic of,4/10/20,10450
+14814, Republic of,4/10/20,10450
 14815,Mexico,4/10/20,3844
 14816,Oman,4/10/20,484
 14817,Pakistan,4/10/20,5011
@@ -15000,7 +15000,7 @@ confirmed_id,country,date,confirmed_total
 14998,Serbia,4/11/20,3380
 14999,AUnited Statestralia,4/11/20,6303
 15000,Burma,4/11/20,38
-15001,Korea, Republic of,4/11/20,10480
+15001, Republic of,4/11/20,10480
 15002,Mexico,4/11/20,4219
 15003,Oman,4/11/20,546
 15004,Pakistan,4/11/20,5230
@@ -15187,7 +15187,7 @@ confirmed_id,country,date,confirmed_total
 15185,Serbia,4/12/20,3630
 15186,AUnited Statestralia,4/12/20,6315
 15187,Burma,4/12/20,41
-15188,Korea, Republic of,4/12/20,10512
+15188, Republic of,4/12/20,10512
 15189,Mexico,4/12/20,4661
 15190,Oman,4/12/20,599
 15191,Pakistan,4/12/20,5496
@@ -15374,7 +15374,7 @@ confirmed_id,country,date,confirmed_total
 15372,Serbia,4/13/20,4054
 15373,AUnited Statestralia,4/13/20,6351
 15374,Burma,4/13/20,62
-15375,Korea, Republic of,4/13/20,10537
+15375, Republic of,4/13/20,10537
 15376,Mexico,4/13/20,5014
 15377,Oman,4/13/20,727
 15378,Pakistan,4/13/20,5837
@@ -15561,7 +15561,7 @@ confirmed_id,country,date,confirmed_total
 15559,Serbia,4/14/20,4465
 15560,AUnited Statestralia,4/14/20,6415
 15561,Burma,4/14/20,63
-15562,Korea, Republic of,4/14/20,10564
+15562, Republic of,4/14/20,10564
 15563,Mexico,4/14/20,5399
 15564,Oman,4/14/20,813
 15565,Pakistan,4/14/20,6383
@@ -15748,7 +15748,7 @@ confirmed_id,country,date,confirmed_total
 15746,Serbia,4/15/20,4873
 15747,AUnited Statestralia,4/15/20,6440
 15748,Burma,4/15/20,74
-15749,Korea, Republic of,4/15/20,10591
+15749, Republic of,4/15/20,10591
 15750,Mexico,4/15/20,5847
 15751,Oman,4/15/20,910
 15752,Pakistan,4/15/20,6919
@@ -15935,7 +15935,7 @@ confirmed_id,country,date,confirmed_total
 15933,Serbia,4/16/20,5318
 15934,AUnited Statestralia,4/16/20,6462
 15935,Burma,4/16/20,85
-15936,Korea, Republic of,4/16/20,10613
+15936, Republic of,4/16/20,10613
 15937,Mexico,4/16/20,6297
 15938,Oman,4/16/20,1019
 15939,Pakistan,4/16/20,7025
@@ -16122,7 +16122,7 @@ confirmed_id,country,date,confirmed_total
 16120,Serbia,4/17/20,5690
 16121,AUnited Statestralia,4/17/20,6522
 16122,Burma,4/17/20,88
-16123,Korea, Republic of,4/17/20,10635
+16123, Republic of,4/17/20,10635
 16124,Mexico,4/17/20,6875
 16125,Oman,4/17/20,1069
 16126,Pakistan,4/17/20,7638
@@ -16309,7 +16309,7 @@ confirmed_id,country,date,confirmed_total
 16307,Serbia,4/18/20,5994
 16308,AUnited Statestralia,4/18/20,6568
 16309,Burma,4/18/20,98
-16310,Korea, Republic of,4/18/20,10653
+16310, Republic of,4/18/20,10653
 16311,Mexico,4/18/20,7497
 16312,Oman,4/18/20,1180
 16313,Pakistan,4/18/20,8348
@@ -16496,7 +16496,7 @@ confirmed_id,country,date,confirmed_total
 16494,Serbia,4/19/20,6318
 16495,AUnited Statestralia,4/19/20,6610
 16496,Burma,4/19/20,111
-16497,Korea, Republic of,4/19/20,10661
+16497, Republic of,4/19/20,10661
 16498,Mexico,4/19/20,8261
 16499,Oman,4/19/20,1266
 16500,Pakistan,4/19/20,8418
@@ -16683,7 +16683,7 @@ confirmed_id,country,date,confirmed_total
 16681,Serbia,4/20/20,6630
 16682,AUnited Statestralia,4/20/20,6623
 16683,Burma,4/20/20,119
-16684,Korea, Republic of,4/20/20,10674
+16684, Republic of,4/20/20,10674
 16685,Mexico,4/20/20,8772
 16686,Oman,4/20/20,1410
 16687,Pakistan,4/20/20,9565
@@ -16870,7 +16870,7 @@ confirmed_id,country,date,confirmed_total
 16868,Serbia,4/21/20,6890
 16869,AUnited Statestralia,4/21/20,6645
 16870,Burma,4/21/20,121
-16871,Korea, Republic of,4/21/20,10683
+16871, Republic of,4/21/20,10683
 16872,Mexico,4/21/20,9501
 16873,Oman,4/21/20,1508
 16874,Pakistan,4/21/20,10076
@@ -17057,7 +17057,7 @@ confirmed_id,country,date,confirmed_total
 17055,Serbia,4/22/20,7144
 17056,AUnited Statestralia,4/22/20,6652
 17057,Burma,4/22/20,123
-17058,Korea, Republic of,4/22/20,10694
+17058, Republic of,4/22/20,10694
 17059,Mexico,4/22/20,10544
 17060,Oman,4/22/20,1614
 17061,Pakistan,4/22/20,11155
@@ -17244,7 +17244,7 @@ confirmed_id,country,date,confirmed_total
 17242,Serbia,4/23/20,7276
 17243,AUnited Statestralia,4/23/20,6662
 17244,Burma,4/23/20,139
-17245,Korea, Republic of,4/23/20,10708
+17245, Republic of,4/23/20,10708
 17246,Mexico,4/23/20,11633
 17247,Oman,4/23/20,1716
 17248,Pakistan,4/23/20,11940
@@ -17431,7 +17431,7 @@ confirmed_id,country,date,confirmed_total
 17429,Serbia,4/24/20,7483
 17430,AUnited Statestralia,4/24/20,6677
 17431,Burma,4/24/20,144
-17432,Korea, Republic of,4/24/20,10718
+17432, Republic of,4/24/20,10718
 17433,Mexico,4/24/20,12872
 17434,Oman,4/24/20,1790
 17435,Pakistan,4/24/20,12723
@@ -17618,7 +17618,7 @@ confirmed_id,country,date,confirmed_total
 17616,Serbia,4/25/20,7779
 17617,AUnited Statestralia,4/25/20,6694
 17618,Burma,4/25/20,146
-17619,Korea, Republic of,4/25/20,10728
+17619, Republic of,4/25/20,10728
 17620,Mexico,4/25/20,13842
 17621,Oman,4/25/20,1905
 17622,Pakistan,4/25/20,13328
@@ -17805,7 +17805,7 @@ confirmed_id,country,date,confirmed_total
 17803,Serbia,4/26/20,8042
 17804,AUnited Statestralia,4/26/20,6714
 17805,Burma,4/26/20,146
-17806,Korea, Republic of,4/26/20,10738
+17806, Republic of,4/26/20,10738
 17807,Mexico,4/26/20,14677
 17808,Oman,4/26/20,1998
 17809,Pakistan,4/26/20,13915
@@ -17992,7 +17992,7 @@ confirmed_id,country,date,confirmed_total
 17990,Serbia,4/27/20,8275
 17991,AUnited Statestralia,4/27/20,6721
 17992,Burma,4/27/20,146
-17993,Korea, Republic of,4/27/20,10752
+17993, Republic of,4/27/20,10752
 17994,Mexico,4/27/20,15529
 17995,Oman,4/27/20,2049
 17996,Pakistan,4/27/20,14612
@@ -18179,7 +18179,7 @@ confirmed_id,country,date,confirmed_total
 18177,Serbia,4/28/20,8497
 18178,AUnited Statestralia,4/28/20,6744
 18179,Burma,4/28/20,150
-18180,Korea, Republic of,4/28/20,10761
+18180, Republic of,4/28/20,10761
 18181,Mexico,4/28/20,16752
 18182,Oman,4/28/20,2131
 18183,Pakistan,4/28/20,15525
@@ -18366,7 +18366,7 @@ confirmed_id,country,date,confirmed_total
 18364,Serbia,4/29/20,8724
 18365,AUnited Statestralia,4/29/20,6752
 18366,Burma,4/29/20,150
-18367,Korea, Republic of,4/29/20,10765
+18367, Republic of,4/29/20,10765
 18368,Mexico,4/29/20,17799
 18369,Oman,4/29/20,2274
 18370,Pakistan,4/29/20,16817
@@ -18553,7 +18553,7 @@ confirmed_id,country,date,confirmed_total
 18551,Serbia,4/30/20,9009
 18552,AUnited Statestralia,4/30/20,6766
 18553,Burma,4/30/20,151
-18554,Korea, Republic of,4/30/20,10774
+18554, Republic of,4/30/20,10774
 18555,Mexico,4/30/20,19224
 18556,Oman,4/30/20,2348
 18557,Pakistan,4/30/20,18114
@@ -18740,7 +18740,7 @@ confirmed_id,country,date,confirmed_total
 18738,Serbia,5/1/20,9009
 18739,AUnited Statestralia,5/1/20,6778
 18740,Burma,5/1/20,151
-18741,Korea, Republic of,5/1/20,10780
+18741, Republic of,5/1/20,10780
 18742,Mexico,5/1/20,20739
 18743,Oman,5/1/20,2447
 18744,Pakistan,5/1/20,19103
@@ -18927,7 +18927,7 @@ confirmed_id,country,date,confirmed_total
 18925,Serbia,5/2/20,9362
 18926,AUnited Statestralia,5/2/20,6799
 18927,Burma,5/2/20,151
-18928,Korea, Republic of,5/2/20,10793
+18928, Republic of,5/2/20,10793
 18929,Mexico,5/2/20,22088
 18930,Oman,5/2/20,2483
 18931,Pakistan,5/2/20,20084
@@ -19114,7 +19114,7 @@ confirmed_id,country,date,confirmed_total
 19112,Serbia,5/3/20,9464
 19113,AUnited Statestralia,5/3/20,6822
 19114,Burma,5/3/20,155
-19115,Korea, Republic of,5/3/20,10801
+19115, Republic of,5/3/20,10801
 19116,Mexico,5/3/20,23471
 19117,Oman,5/3/20,2568
 19118,Pakistan,5/3/20,20941
@@ -19301,7 +19301,7 @@ confirmed_id,country,date,confirmed_total
 19299,Serbia,5/4/20,9557
 19300,AUnited Statestralia,5/4/20,6847
 19301,Burma,5/4/20,161
-19302,Korea, Republic of,5/4/20,10804
+19302, Republic of,5/4/20,10804
 19303,Mexico,5/4/20,24905
 19304,Oman,5/4/20,2637
 19305,Pakistan,5/4/20,22049
@@ -19488,7 +19488,7 @@ confirmed_id,country,date,confirmed_total
 19486,Serbia,5/5/20,9677
 19487,AUnited Statestralia,5/5/20,6875
 19488,Burma,5/5/20,161
-19489,Korea, Republic of,5/5/20,10806
+19489, Republic of,5/5/20,10806
 19490,Mexico,5/5/20,26025
 19491,Oman,5/5/20,2735
 19492,Pakistan,5/5/20,24073
@@ -19675,7 +19675,7 @@ confirmed_id,country,date,confirmed_total
 19673,Serbia,5/6/20,9791
 19674,AUnited Statestralia,5/6/20,6894
 19675,Burma,5/6/20,161
-19676,Korea, Republic of,5/6/20,10810
+19676, Republic of,5/6/20,10810
 19677,Mexico,5/6/20,27634
 19678,Oman,5/6/20,2903
 19679,Pakistan,5/6/20,24644
@@ -19862,7 +19862,7 @@ confirmed_id,country,date,confirmed_total
 19860,Serbia,5/7/20,9848
 19861,AUnited Statestralia,5/7/20,6913
 19862,Burma,5/7/20,176
-19863,Korea, Republic of,5/7/20,10822
+19863, Republic of,5/7/20,10822
 19864,Mexico,5/7/20,29616
 19865,Oman,5/7/20,2958
 19866,Pakistan,5/7/20,26435
@@ -20049,7 +20049,7 @@ confirmed_id,country,date,confirmed_total
 20047,Serbia,5/8/20,9943
 20048,AUnited Statestralia,5/8/20,6918
 20049,Burma,5/8/20,177
-20050,Korea, Republic of,5/8/20,10840
+20050, Republic of,5/8/20,10840
 20051,Mexico,5/8/20,31522
 20052,Oman,5/8/20,3112
 20053,Pakistan,5/8/20,28736
@@ -20236,7 +20236,7 @@ confirmed_id,country,date,confirmed_total
 20234,Serbia,5/9/20,10032
 20235,AUnited Statestralia,5/9/20,6939
 20236,Burma,5/9/20,178
-20237,Korea, Republic of,5/9/20,10874
+20237, Republic of,5/9/20,10874
 20238,Mexico,5/9/20,33460
 20239,Oman,5/9/20,3224
 20240,Pakistan,5/9/20,30334
@@ -20423,7 +20423,7 @@ confirmed_id,country,date,confirmed_total
 20421,Serbia,5/10/20,10032
 20422,AUnited Statestralia,5/10/20,6948
 20423,Burma,5/10/20,180
-20424,Korea, Republic of,5/10/20,10909
+20424, Republic of,5/10/20,10909
 20425,Mexico,5/10/20,35022
 20426,Oman,5/10/20,3399
 20427,Pakistan,5/10/20,32081
@@ -20610,7 +20610,7 @@ confirmed_id,country,date,confirmed_total
 20608,Serbia,5/11/20,10176
 20609,AUnited Statestralia,5/11/20,6970
 20610,Burma,5/11/20,180
-20611,Korea, Republic of,5/11/20,10936
+20611, Republic of,5/11/20,10936
 20612,Mexico,5/11/20,36327
 20613,Oman,5/11/20,3573
 20614,Pakistan,5/11/20,34336
@@ -20797,7 +20797,7 @@ confirmed_id,country,date,confirmed_total
 20795,Serbia,5/12/20,10243
 20796,AUnited Statestralia,5/12/20,6980
 20797,Burma,5/12/20,180
-20798,Korea, Republic of,5/12/20,10962
+20798, Republic of,5/12/20,10962
 20799,Mexico,5/12/20,38324
 20800,Oman,5/12/20,3721
 20801,Pakistan,5/12/20,35298
@@ -20984,7 +20984,7 @@ confirmed_id,country,date,confirmed_total
 20982,Serbia,5/13/20,10295
 20983,AUnited Statestralia,5/13/20,6989
 20984,Burma,5/13/20,181
-20985,Korea, Republic of,5/13/20,10991
+20985, Republic of,5/13/20,10991
 20986,Mexico,5/13/20,40186
 20987,Oman,5/13/20,4019
 20988,Pakistan,5/13/20,35788
@@ -21171,7 +21171,7 @@ confirmed_id,country,date,confirmed_total
 21169,Serbia,5/14/20,10374
 21170,AUnited Statestralia,5/14/20,7019
 21171,Burma,5/14/20,181
-21172,Korea, Republic of,5/14/20,11018
+21172, Republic of,5/14/20,11018
 21173,Mexico,5/14/20,42595
 21174,Oman,5/14/20,4341
 21175,Pakistan,5/14/20,38799
@@ -21358,7 +21358,7 @@ confirmed_id,country,date,confirmed_total
 21356,Serbia,5/15/20,10438
 21357,AUnited Statestralia,5/15/20,7035
 21358,Burma,5/15/20,182
-21359,Korea, Republic of,5/15/20,11037
+21359, Republic of,5/15/20,11037
 21360,Mexico,5/15/20,45032
 21361,Oman,5/15/20,4625
 21362,Pakistan,5/15/20,38799
@@ -21545,7 +21545,7 @@ confirmed_id,country,date,confirmed_total
 21543,Serbia,5/16/20,10496
 21544,AUnited Statestralia,5/16/20,7044
 21545,Burma,5/16/20,182
-21546,Korea, Republic of,5/16/20,11050
+21546, Republic of,5/16/20,11050
 21547,Mexico,5/16/20,47144
 21548,Oman,5/16/20,5029
 21549,Pakistan,5/16/20,40151
@@ -21732,7 +21732,7 @@ confirmed_id,country,date,confirmed_total
 21730,Serbia,5/17/20,10610
 21731,AUnited Statestralia,5/17/20,7054
 21732,Burma,5/17/20,184
-21733,Korea, Republic of,5/17/20,11065
+21733, Republic of,5/17/20,11065
 21734,Mexico,5/17/20,49219
 21735,Oman,5/17/20,5186
 21736,Pakistan,5/17/20,42125
@@ -21919,7 +21919,7 @@ confirmed_id,country,date,confirmed_total
 21917,Serbia,5/18/20,10699
 21918,AUnited Statestralia,5/18/20,7068
 21919,Burma,5/18/20,191
-21920,Korea, Republic of,5/18/20,11078
+21920, Republic of,5/18/20,11078
 21921,Mexico,5/18/20,51633
 21922,Oman,5/18/20,5379
 21923,Pakistan,5/18/20,43966
@@ -22106,7 +22106,7 @@ confirmed_id,country,date,confirmed_total
 22104,Serbia,5/19/20,10733
 22105,AUnited Statestralia,5/19/20,7072
 22106,Burma,5/19/20,193
-22107,Korea, Republic of,5/19/20,11110
+22107, Republic of,5/19/20,11110
 22108,Mexico,5/19/20,54346
 22109,Oman,5/19/20,5671
 22110,Pakistan,5/19/20,45898
@@ -22293,7 +22293,7 @@ confirmed_id,country,date,confirmed_total
 22291,Serbia,5/20/20,10833
 22292,AUnited Statestralia,5/20/20,7081
 22293,Burma,5/20/20,199
-22294,Korea, Republic of,5/20/20,11122
+22294, Republic of,5/20/20,11122
 22295,Mexico,5/20/20,56594
 22296,Oman,5/20/20,6043
 22297,Pakistan,5/20/20,48091
@@ -22480,7 +22480,7 @@ confirmed_id,country,date,confirmed_total
 22478,Serbia,5/21/20,10919
 22479,AUnited Statestralia,5/21/20,7095
 22480,Burma,5/21/20,199
-22481,Korea, Republic of,5/21/20,11142
+22481, Republic of,5/21/20,11142
 22482,Mexico,5/21/20,59567
 22483,Oman,5/21/20,6370
 22484,Pakistan,5/21/20,50694
@@ -22667,7 +22667,7 @@ confirmed_id,country,date,confirmed_total
 22665,Serbia,5/22/20,11024
 22666,AUnited Statestralia,5/22/20,7099
 22667,Burma,5/22/20,199
-22668,Korea, Republic of,5/22/20,11165
+22668, Republic of,5/22/20,11165
 22669,Mexico,5/22/20,62527
 22670,Oman,5/22/20,6794
 22671,Pakistan,5/22/20,52437
@@ -22854,7 +22854,7 @@ confirmed_id,country,date,confirmed_total
 22852,Serbia,5/23/20,11092
 22853,AUnited Statestralia,5/23/20,7114
 22854,Burma,5/23/20,201
-22855,Korea, Republic of,5/23/20,11190
+22855, Republic of,5/23/20,11190
 22856,Mexico,5/23/20,65856
 22857,Oman,5/23/20,7257
 22858,Pakistan,5/23/20,54601
@@ -23041,7 +23041,7 @@ confirmed_id,country,date,confirmed_total
 23039,Serbia,5/24/20,11159
 23040,AUnited Statestralia,5/24/20,7114
 23041,Burma,5/24/20,201
-23042,Korea, Republic of,5/24/20,11206
+23042, Republic of,5/24/20,11206
 23043,Mexico,5/24/20,68620
 23044,Oman,5/24/20,7770
 23045,Pakistan,5/24/20,56349
@@ -23228,7 +23228,7 @@ confirmed_id,country,date,confirmed_total
 23226,Serbia,5/25/20,11193
 23227,AUnited Statestralia,5/25/20,7126
 23228,Burma,5/25/20,203
-23229,Korea, Republic of,5/25/20,11225
+23229, Republic of,5/25/20,11225
 23230,Mexico,5/25/20,71105
 23231,Oman,5/25/20,7770
 23232,Pakistan,5/25/20,57705
@@ -23415,7 +23415,7 @@ confirmed_id,country,date,confirmed_total
 23413,Serbia,5/26/20,11227
 23414,AUnited Statestralia,5/26/20,7139
 23415,Burma,5/26/20,206
-23416,Korea, Republic of,5/26/20,11265
+23416, Republic of,5/26/20,11265
 23417,Mexico,5/26/20,74560
 23418,Oman,5/26/20,8118
 23419,Pakistan,5/26/20,59151
@@ -23602,7 +23602,7 @@ confirmed_id,country,date,confirmed_total
 23600,Serbia,5/27/20,11275
 23601,AUnited Statestralia,5/27/20,7150
 23602,Burma,5/27/20,206
-23603,Korea, Republic of,5/27/20,11344
+23603, Republic of,5/27/20,11344
 23604,Mexico,5/27/20,78023
 23605,Oman,5/27/20,8373
 23606,Pakistan,5/27/20,61227
@@ -23789,7 +23789,7 @@ confirmed_id,country,date,confirmed_total
 23787,Serbia,5/28/20,11300
 23788,AUnited Statestralia,5/28/20,7165
 23789,Burma,5/28/20,206
-23790,Korea, Republic of,5/28/20,11402
+23790, Republic of,5/28/20,11402
 23791,Mexico,5/28/20,81400
 23792,Oman,5/28/20,9009
 23793,Pakistan,5/28/20,64028
@@ -23976,7 +23976,7 @@ confirmed_id,country,date,confirmed_total
 23974,Serbia,5/29/20,11354
 23975,AUnited Statestralia,5/29/20,7184
 23976,Burma,5/29/20,207
-23977,Korea, Republic of,5/29/20,11441
+23977, Republic of,5/29/20,11441
 23978,Mexico,5/29/20,84627
 23979,Oman,5/29/20,9820
 23980,Pakistan,5/29/20,66457
@@ -24163,7 +24163,7 @@ confirmed_id,country,date,confirmed_total
 24161,Serbia,5/30/20,11381
 24162,AUnited Statestralia,5/30/20,7192
 24163,Burma,5/30/20,224
-24164,Korea, Republic of,5/30/20,11468
+24164, Republic of,5/30/20,11468
 24165,Mexico,5/30/20,87512
 24166,Oman,5/30/20,10423
 24167,Pakistan,5/30/20,69496
@@ -24350,7 +24350,7 @@ confirmed_id,country,date,confirmed_total
 24348,Serbia,5/31/20,11412
 24349,AUnited Statestralia,5/31/20,7202
 24350,Burma,5/31/20,224
-24351,Korea, Republic of,5/31/20,11503
+24351, Republic of,5/31/20,11503
 24352,Mexico,5/31/20,90664
 24353,Oman,5/31/20,11437
 24354,Pakistan,5/31/20,72460
@@ -24537,7 +24537,7 @@ confirmed_id,country,date,confirmed_total
 24535,Serbia,6/1/20,11430
 24536,AUnited Statestralia,6/1/20,7221
 24537,Burma,6/1/20,228
-24538,Korea, Republic of,6/1/20,11541
+24538, Republic of,6/1/20,11541
 24539,Mexico,6/1/20,93435
 24540,Oman,6/1/20,12223
 24541,Pakistan,6/1/20,76398
@@ -24724,7 +24724,7 @@ confirmed_id,country,date,confirmed_total
 24722,Serbia,6/2/20,11454
 24723,AUnited Statestralia,6/2/20,7229
 24724,Burma,6/2/20,232
-24725,Korea, Republic of,6/2/20,11590
+24725, Republic of,6/2/20,11590
 24726,Mexico,6/2/20,97326
 24727,Oman,6/2/20,12799
 24728,Pakistan,6/2/20,80463
@@ -24911,7 +24911,7 @@ confirmed_id,country,date,confirmed_total
 24909,Serbia,6/3/20,11523
 24910,AUnited Statestralia,6/3/20,7240
 24911,Burma,6/3/20,233
-24912,Korea, Republic of,6/3/20,11629
+24912, Republic of,6/3/20,11629
 24913,Mexico,6/3/20,101238
 24914,Oman,6/3/20,13537
 24915,Pakistan,6/3/20,85264
@@ -25098,7 +25098,7 @@ confirmed_id,country,date,confirmed_total
 25096,Serbia,6/4/20,11571
 25097,AUnited Statestralia,6/4/20,7247
 25098,Burma,6/4/20,236
-25099,Korea, Republic of,6/4/20,11668
+25099, Republic of,6/4/20,11668
 25100,Mexico,6/4/20,105680
 25101,Oman,6/4/20,14316
 25102,Pakistan,6/4/20,89249
@@ -25285,7 +25285,7 @@ confirmed_id,country,date,confirmed_total
 25283,Serbia,6/5/20,11667
 25284,AUnited Statestralia,6/5/20,7252
 25285,Burma,6/5/20,236
-25286,Korea, Republic of,6/5/20,11719
+25286, Republic of,6/5/20,11719
 25287,Mexico,6/5/20,110026
 25288,Oman,6/5/20,15086
 25289,Pakistan,6/5/20,93983
@@ -25472,7 +25472,7 @@ confirmed_id,country,date,confirmed_total
 25470,Serbia,6/6/20,11741
 25471,AUnited Statestralia,6/6/20,7259
 25472,Burma,6/6/20,240
-25473,Korea, Republic of,6/6/20,11776
+25473, Republic of,6/6/20,11776
 25474,Mexico,6/6/20,113619
 25475,Oman,6/6/20,16016
 25476,Pakistan,6/6/20,98943
@@ -25659,7 +25659,7 @@ confirmed_id,country,date,confirmed_total
 25657,Serbia,6/7/20,11823
 25658,AUnited Statestralia,6/7/20,7265
 25659,Burma,6/7/20,242
-25660,Korea, Republic of,6/7/20,11814
+25660, Republic of,6/7/20,11814
 25661,Mexico,6/7/20,117103
 25662,Oman,6/7/20,16882
 25663,Pakistan,6/7/20,103671
@@ -25846,7 +25846,7 @@ confirmed_id,country,date,confirmed_total
 25844,Serbia,6/8/20,11896
 25845,AUnited Statestralia,6/8/20,7267
 25846,Burma,6/8/20,244
-25847,Korea, Republic of,6/8/20,11852
+25847, Republic of,6/8/20,11852
 25848,Mexico,6/8/20,120102
 25849,Oman,6/8/20,17486
 25850,Pakistan,6/8/20,108317
@@ -26033,7 +26033,7 @@ confirmed_id,country,date,confirmed_total
 26031,Serbia,6/9/20,11965
 26032,AUnited Statestralia,6/9/20,7274
 26033,Burma,6/9/20,246
-26034,Korea, Republic of,6/9/20,11902
+26034, Republic of,6/9/20,11902
 26035,Mexico,6/9/20,124301
 26036,Oman,6/9/20,18198
 26037,Pakistan,6/9/20,113702
@@ -26220,7 +26220,7 @@ confirmed_id,country,date,confirmed_total
 26218,Serbia,6/10/20,12031
 26219,AUnited Statestralia,6/10/20,7285
 26220,Burma,6/10/20,248
-26221,Korea, Republic of,6/10/20,11947
+26221, Republic of,6/10/20,11947
 26222,Mexico,6/10/20,129184
 26223,Oman,6/10/20,18887
 26224,Pakistan,6/10/20,119536
@@ -26407,7 +26407,7 @@ confirmed_id,country,date,confirmed_total
 26405,Serbia,6/11/20,12102
 26406,AUnited Statestralia,6/11/20,7289
 26407,Burma,6/11/20,260
-26408,Korea, Republic of,6/11/20,12003
+26408, Republic of,6/11/20,12003
 26409,Mexico,6/11/20,133974
 26410,Oman,6/11/20,19954
 26411,Pakistan,6/11/20,125933
@@ -26594,7 +26594,7 @@ confirmed_id,country,date,confirmed_total
 26592,Serbia,6/12/20,12175
 26593,AUnited Statestralia,6/12/20,7294
 26594,Burma,6/12/20,261
-26595,Korea, Republic of,6/12/20,12051
+26595, Republic of,6/12/20,12051
 26596,Mexico,6/12/20,139196
 26597,Oman,6/12/20,21071
 26598,Pakistan,6/12/20,125933
@@ -26781,7 +26781,7 @@ confirmed_id,country,date,confirmed_total
 26779,Serbia,6/13/20,12251
 26780,AUnited Statestralia,6/13/20,7320
 26781,Burma,6/13/20,261
-26782,Korea, Republic of,6/13/20,12085
+26782, Republic of,6/13/20,12085
 26783,Mexico,6/13/20,142690
 26784,Oman,6/13/20,22077
 26785,Pakistan,6/13/20,132405
@@ -26968,7 +26968,7 @@ confirmed_id,country,date,confirmed_total
 26966,Serbia,6/14/20,12310
 26967,AUnited Statestralia,6/14/20,7335
 26968,Burma,6/14/20,261
-26969,Korea, Republic of,6/14/20,12121
+26969, Republic of,6/14/20,12121
 26970,Mexico,6/14/20,146837
 26971,Oman,6/14/20,23481
 26972,Pakistan,6/14/20,144478
@@ -27155,7 +27155,7 @@ confirmed_id,country,date,confirmed_total
 27153,Serbia,6/15/20,12367
 27154,AUnited Statestralia,6/15/20,7347
 27155,Burma,6/15/20,262
-27156,Korea, Republic of,6/15/20,12155
+27156, Republic of,6/15/20,12155
 27157,Mexico,6/15/20,150264
 27158,Oman,6/15/20,24524
 27159,Pakistan,6/15/20,148921
@@ -27342,7 +27342,7 @@ confirmed_id,country,date,confirmed_total
 27340,Serbia,6/16/20,12426
 27341,AUnited Statestralia,6/16/20,7370
 27342,Burma,6/16/20,262
-27343,Korea, Republic of,6/16/20,12198
+27343, Republic of,6/16/20,12198
 27344,Mexico,6/16/20,154863
 27345,Oman,6/16/20,25269
 27346,Pakistan,6/16/20,154760
@@ -27529,7 +27529,7 @@ confirmed_id,country,date,confirmed_total
 27527,Serbia,6/17/20,12522
 27528,AUnited Statestralia,6/17/20,7391
 27529,Burma,6/17/20,262
-27530,Korea, Republic of,6/17/20,12257
+27530, Republic of,6/17/20,12257
 27531,Mexico,6/17/20,159793
 27532,Oman,6/17/20,26079
 27533,Pakistan,6/17/20,160118
@@ -27716,7 +27716,7 @@ confirmed_id,country,date,confirmed_total
 27714,Serbia,6/18/20,12616
 27715,AUnited Statestralia,6/18/20,7409
 27716,Burma,6/18/20,286
-27717,Korea, Republic of,6/18/20,12306
+27717, Republic of,6/18/20,12306
 27718,Mexico,6/18/20,165455
 27719,Oman,6/18/20,26818
 27720,Pakistan,6/18/20,165062
@@ -27903,7 +27903,7 @@ confirmed_id,country,date,confirmed_total
 27901,Serbia,6/19/20,12709
 27902,AUnited Statestralia,6/19/20,7411
 27903,Burma,6/19/20,286
-27904,Korea, Republic of,6/19/20,12373
+27904, Republic of,6/19/20,12373
 27905,Mexico,6/19/20,170485
 27906,Oman,6/19/20,27670
 27907,Pakistan,6/19/20,171666
@@ -28090,7 +28090,7 @@ confirmed_id,country,date,confirmed_total
 28088,Serbia,6/20/20,12803
 28089,AUnited Statestralia,6/20/20,7461
 28090,Burma,6/20/20,287
-28091,Korea, Republic of,6/20/20,12421
+28091, Republic of,6/20/20,12421
 28092,Mexico,6/20/20,175202
 28093,Oman,6/20/20,28566
 28094,Pakistan,6/20/20,176617
@@ -28277,7 +28277,7 @@ confirmed_id,country,date,confirmed_total
 28275,Serbia,6/21/20,12894
 28276,AUnited Statestralia,6/21/20,7474
 28277,Burma,6/21/20,290
-28278,Korea, Republic of,6/21/20,12438
+28278, Republic of,6/21/20,12438
 28279,Mexico,6/21/20,180545
 28280,Oman,6/21/20,29471
 28281,Pakistan,6/21/20,181088
@@ -28464,7 +28464,7 @@ confirmed_id,country,date,confirmed_total
 28462,Serbia,6/22/20,12990
 28463,AUnited Statestralia,6/22/20,7492
 28464,Burma,6/22/20,291
-28465,Korea, Republic of,6/22/20,12484
+28465, Republic of,6/22/20,12484
 28466,Mexico,6/22/20,185122
 28467,Oman,6/22/20,31076
 28468,Pakistan,6/22/20,185034
@@ -28651,7 +28651,7 @@ confirmed_id,country,date,confirmed_total
 28649,Serbia,6/23/20,13092
 28650,AUnited Statestralia,6/23/20,7521
 28651,Burma,6/23/20,292
-28652,Korea, Republic of,6/23/20,12535
+28652, Republic of,6/23/20,12535
 28653,Mexico,6/23/20,191410
 28654,Oman,6/23/20,32394
 28655,Pakistan,6/23/20,188926
@@ -28838,7 +28838,7 @@ confirmed_id,country,date,confirmed_total
 28836,Serbia,6/24/20,13235
 28837,AUnited Statestralia,6/24/20,7558
 28838,Burma,6/24/20,293
-28839,Korea, Republic of,6/24/20,12563
+28839, Republic of,6/24/20,12563
 28840,Mexico,6/24/20,196847
 28841,Oman,6/24/20,33536
 28842,Pakistan,6/24/20,192970
@@ -29025,7 +29025,7 @@ confirmed_id,country,date,confirmed_total
 29023,Serbia,6/25/20,13372
 29024,AUnited Statestralia,6/25/20,7595
 29025,Burma,6/25/20,293
-29026,Korea, Republic of,6/25/20,12602
+29026, Republic of,6/25/20,12602
 29027,Mexico,6/25/20,202951
 29028,Oman,6/25/20,34902
 29029,Pakistan,6/25/20,195745
@@ -29212,7 +29212,7 @@ confirmed_id,country,date,confirmed_total
 29210,Serbia,6/26/20,13565
 29211,AUnited Statestralia,6/26/20,7601
 29212,Burma,6/26/20,293
-29213,Korea, Republic of,6/26/20,12653
+29213, Republic of,6/26/20,12653
 29214,Mexico,6/26/20,208392
 29215,Oman,6/26/20,36034
 29216,Pakistan,6/26/20,198883
@@ -29399,7 +29399,7 @@ confirmed_id,country,date,confirmed_total
 29397,Serbia,6/27/20,13792
 29398,AUnited Statestralia,6/27/20,7686
 29399,Burma,6/27/20,296
-29400,Korea, Republic of,6/27/20,12715
+29400, Republic of,6/27/20,12715
 29401,Mexico,6/27/20,212802
 29402,Oman,6/27/20,36953
 29403,Pakistan,6/27/20,202955
@@ -29586,7 +29586,7 @@ confirmed_id,country,date,confirmed_total
 29584,Serbia,6/28/20,14046
 29585,AUnited Statestralia,6/28/20,7764
 29586,Burma,6/28/20,299
-29587,Korea, Republic of,6/28/20,12757
+29587, Republic of,6/28/20,12757
 29588,Mexico,6/28/20,216852
 29589,Oman,6/28/20,38150
 29590,Pakistan,6/28/20,206512
@@ -29773,7 +29773,7 @@ confirmed_id,country,date,confirmed_total
 29771,Serbia,6/29/20,14288
 29772,AUnited Statestralia,6/29/20,7834
 29773,Burma,6/29/20,299
-29774,Korea, Republic of,6/29/20,12800
+29774, Republic of,6/29/20,12800
 29775,Mexico,6/29/20,220657
 29776,Oman,6/29/20,39060
 29777,Pakistan,6/29/20,209337
@@ -29960,7 +29960,7 @@ confirmed_id,country,date,confirmed_total
 29958,Serbia,6/30/20,14564
 29959,AUnited Statestralia,6/30/20,7920
 29960,Burma,6/30/20,299
-29961,Korea, Republic of,6/30/20,12850
+29961, Republic of,6/30/20,12850
 29962,Mexico,6/30/20,226089
 29963,Oman,6/30/20,40070
 29964,Pakistan,6/30/20,213470
@@ -30147,7 +30147,7 @@ confirmed_id,country,date,confirmed_total
 30145,Serbia,7/1/20,14836
 30146,AUnited Statestralia,7/1/20,8001
 30147,Burma,7/1/20,303
-30148,Korea, Republic of,7/1/20,12904
+30148, Republic of,7/1/20,12904
 30149,Mexico,7/1/20,231770
 30150,Oman,7/1/20,41194
 30151,Pakistan,7/1/20,217809
@@ -30334,7 +30334,7 @@ confirmed_id,country,date,confirmed_total
 30332,Serbia,7/2/20,15195
 30333,AUnited Statestralia,7/2/20,8066
 30334,Burma,7/2/20,304
-30335,Korea, Republic of,7/2/20,12967
+30335, Republic of,7/2/20,12967
 30336,Mexico,7/2/20,238511
 30337,Oman,7/2/20,42555
 30338,Pakistan,7/2/20,221896
@@ -30521,7 +30521,7 @@ confirmed_id,country,date,confirmed_total
 30519,Serbia,7/3/20,15504
 30520,AUnited Statestralia,7/3/20,8260
 30521,Burma,7/3/20,306
-30522,Korea, Republic of,7/3/20,13030
+30522, Republic of,7/3/20,13030
 30523,Mexico,7/3/20,245251
 30524,Oman,7/3/20,43929
 30525,Pakistan,7/3/20,221896
@@ -30708,7 +30708,7 @@ confirmed_id,country,date,confirmed_total
 30706,Serbia,7/4/20,15829
 30707,AUnited Statestralia,7/4/20,8443
 30708,Burma,7/4/20,313
-30709,Korea, Republic of,7/4/20,13091
+30709, Republic of,7/4/20,13091
 30710,Mexico,7/4/20,252165
 30711,Oman,7/4/20,45106
 30712,Pakistan,7/4/20,225283
@@ -30895,7 +30895,7 @@ confirmed_id,country,date,confirmed_total
 30893,Serbia,7/5/20,16131
 30894,AUnited Statestralia,7/5/20,8583
 30895,Burma,7/5/20,313
-30896,Korea, Republic of,7/5/20,13137
+30896, Republic of,7/5/20,13137
 30897,Mexico,7/5/20,256848
 30898,Oman,7/5/20,46178
 30899,Pakistan,7/5/20,231818
@@ -31082,7 +31082,7 @@ confirmed_id,country,date,confirmed_total
 31080,Serbia,7/6/20,16420
 31081,AUnited Statestralia,7/6/20,8755
 31082,Burma,7/6/20,316
-31083,Korea, Republic of,7/6/20,13181
+31083, Republic of,7/6/20,13181
 31084,Mexico,7/6/20,261750
 31085,Oman,7/6/20,47735
 31086,Pakistan,7/6/20,234509
@@ -31269,7 +31269,7 @@ confirmed_id,country,date,confirmed_total
 31267,Serbia,7/7/20,16719
 31268,AUnited Statestralia,7/7/20,8886
 31269,Burma,7/7/20,316
-31270,Korea, Republic of,7/7/20,13244
+31270, Republic of,7/7/20,13244
 31271,Mexico,7/7/20,268008
 31272,Oman,7/7/20,48997
 31273,Pakistan,7/7/20,237489
@@ -31456,7 +31456,7 @@ confirmed_id,country,date,confirmed_total
 31454,Serbia,7/8/20,17076
 31455,AUnited Statestralia,7/8/20,9056
 31456,Burma,7/8/20,317
-31457,Korea, Republic of,7/8/20,13293
+31457, Republic of,7/8/20,13293
 31458,Mexico,7/8/20,275003
 31459,Oman,7/8/20,50207
 31460,Pakistan,7/8/20,240848
@@ -31643,7 +31643,7 @@ confirmed_id,country,date,confirmed_total
 31641,Serbia,7/9/20,17342
 31642,AUnited Statestralia,7/9/20,9374
 31643,Burma,7/9/20,321
-31644,Korea, Republic of,7/9/20,13338
+31644, Republic of,7/9/20,13338
 31645,Mexico,7/9/20,282283
 31646,Oman,7/9/20,51725
 31647,Pakistan,7/9/20,243599
@@ -31830,7 +31830,7 @@ confirmed_id,country,date,confirmed_total
 31828,Serbia,7/10/20,17728
 31829,AUnited Statestralia,7/10/20,9553
 31830,Burma,7/10/20,326
-31831,Korea, Republic of,7/10/20,13373
+31831, Republic of,7/10/20,13373
 31832,Mexico,7/10/20,289174
 31833,Oman,7/10/20,53614
 31834,Pakistan,7/10/20,246351
@@ -32017,7 +32017,7 @@ confirmed_id,country,date,confirmed_total
 32015,Serbia,7/11/20,18073
 32016,AUnited Statestralia,7/11/20,9797
 32017,Burma,7/11/20,330
-32018,Korea, Republic of,7/11/20,13417
+32018, Republic of,7/11/20,13417
 32019,Mexico,7/11/20,295268
 32020,Oman,7/11/20,54697
 32021,Pakistan,7/11/20,248872
@@ -32204,7 +32204,7 @@ confirmed_id,country,date,confirmed_total
 32202,Serbia,7/12/20,18360
 32203,AUnited Statestralia,7/12/20,9980
 32204,Burma,7/12/20,331
-32205,Korea, Republic of,7/12/20,13479
+32205, Republic of,7/12/20,13479
 32206,Mexico,7/12/20,299750
 32207,Oman,7/12/20,56015
 32208,Pakistan,7/12/20,251625
@@ -32391,7 +32391,7 @@ confirmed_id,country,date,confirmed_total
 32389,Serbia,7/13/20,18639
 32390,AUnited Statestralia,7/13/20,10251
 32391,Burma,7/13/20,336
-32392,Korea, Republic of,7/13/20,13512
+32392, Republic of,7/13/20,13512
 32393,Mexico,7/13/20,304435
 32394,Oman,7/13/20,58179
 32395,Pakistan,7/13/20,253604
@@ -32578,7 +32578,7 @@ confirmed_id,country,date,confirmed_total
 32576,Serbia,7/14/20,18983
 32577,AUnited Statestralia,7/14/20,10487
 32578,Burma,7/14/20,337
-32579,Korea, Republic of,7/14/20,13551
+32579, Republic of,7/14/20,13551
 32580,Mexico,7/14/20,311486
 32581,Oman,7/14/20,59568
 32582,Pakistan,7/14/20,255769
@@ -32765,7 +32765,7 @@ confirmed_id,country,date,confirmed_total
 32763,Serbia,7/15/20,19334
 32764,AUnited Statestralia,7/15/20,10810
 32765,Burma,7/15/20,337
-32766,Korea, Republic of,7/15/20,13612
+32766, Republic of,7/15/20,13612
 32767,Mexico,7/15/20,317635
 32768,Oman,7/15/20,61247
 32769,Pakistan,7/15/20,257914
@@ -32952,7 +32952,7 @@ confirmed_id,country,date,confirmed_total
 32950,Serbia,7/16/20,19717
 32951,AUnited Statestralia,7/16/20,11233
 32952,Burma,7/16/20,339
-32953,Korea, Republic of,7/16/20,13672
+32953, Republic of,7/16/20,13672
 32954,Mexico,7/16/20,324041
 32955,Oman,7/16/20,62574
 32956,Pakistan,7/16/20,257914
@@ -33139,7 +33139,7 @@ confirmed_id,country,date,confirmed_total
 33137,Serbia,7/17/20,20109
 33138,AUnited Statestralia,7/17/20,11441
 33139,Burma,7/17/20,339
-33140,Korea, Republic of,7/17/20,13711
+33140, Republic of,7/17/20,13711
 33141,Mexico,7/17/20,331298
 33142,Oman,7/17/20,64193
 33143,Pakistan,7/17/20,261917
@@ -33326,7 +33326,7 @@ confirmed_id,country,date,confirmed_total
 33324,Serbia,7/18/20,20498
 33325,AUnited Statestralia,7/18/20,11802
 33326,Burma,7/18/20,340
-33327,Korea, Republic of,7/18/20,13745
+33327, Republic of,7/18/20,13745
 33328,Mexico,7/18/20,338913
 33329,Oman,7/18/20,65504
 33330,Pakistan,7/18/20,263496
@@ -33513,7 +33513,7 @@ confirmed_id,country,date,confirmed_total
 33511,Serbia,7/19/20,20894
 33512,AUnited Statestralia,7/19/20,12069
 33513,Burma,7/19/20,341
-33514,Korea, Republic of,7/19/20,13771
+33514, Republic of,7/19/20,13771
 33515,Mexico,7/19/20,344224
 33516,Oman,7/19/20,66661
 33517,Pakistan,7/19/20,265083
@@ -33700,7 +33700,7 @@ confirmed_id,country,date,confirmed_total
 33698,Serbia,7/20/20,21253
 33699,AUnited Statestralia,7/20/20,12428
 33700,Burma,7/20/20,341
-33701,Korea, Republic of,7/20/20,13816
+33701, Republic of,7/20/20,13816
 33702,Mexico,7/20/20,349396
 33703,Oman,7/20/20,68400
 33704,Pakistan,7/20/20,266096
@@ -33887,7 +33887,7 @@ confirmed_id,country,date,confirmed_total
 33885,Serbia,7/21/20,21605
 33886,AUnited Statestralia,7/21/20,12894
 33887,Burma,7/21/20,341
-33888,Korea, Republic of,7/21/20,13879
+33888, Republic of,7/21/20,13879
 33889,Mexico,7/21/20,356255
 33890,Oman,7/21/20,69887
 33891,Pakistan,7/21/20,267428
@@ -34074,7 +34074,7 @@ confirmed_id,country,date,confirmed_total
 34072,Serbia,7/22/20,22031
 34073,AUnited Statestralia,7/22/20,13302
 34074,Burma,7/22/20,343
-34075,Korea, Republic of,7/22/20,13938
+34075, Republic of,7/22/20,13938
 34076,Mexico,7/22/20,362274
 34077,Oman,7/22/20,71547
 34078,Pakistan,7/22/20,269191
@@ -34261,7 +34261,7 @@ confirmed_id,country,date,confirmed_total
 34259,Serbia,7/23/20,22443
 34260,AUnited Statestralia,7/23/20,13595
 34261,Burma,7/23/20,343
-34262,Korea, Republic of,7/23/20,13979
+34262, Republic of,7/23/20,13979
 34263,Mexico,7/23/20,370712
 34264,Oman,7/23/20,72646
 34265,Pakistan,7/23/20,270400
@@ -34448,7 +34448,7 @@ confirmed_id,country,date,confirmed_total
 34446,Serbia,7/24/20,22852
 34447,AUnited Statestralia,7/24/20,13950
 34448,Burma,7/24/20,346
-34449,Korea, Republic of,7/24/20,14092
+34449, Republic of,7/24/20,14092
 34450,Mexico,7/24/20,378285
 34451,Oman,7/24/20,73791
 34452,Pakistan,7/24/20,271887
@@ -34635,7 +34635,7 @@ confirmed_id,country,date,confirmed_total
 34633,Serbia,7/25/20,22852
 34634,AUnited Statestralia,7/25/20,14403
 34635,Burma,7/25/20,348
-34636,Korea, Republic of,7/25/20,14150
+34636, Republic of,7/25/20,14150
 34637,Mexico,7/25/20,385036
 34638,Oman,7/25/20,74858
 34639,Pakistan,7/25/20,273113
@@ -34822,7 +34822,7 @@ confirmed_id,country,date,confirmed_total
 34820,Serbia,7/26/20,23730
 34821,AUnited Statestralia,7/26/20,14935
 34822,Burma,7/26/20,350
-34823,Korea, Republic of,7/26/20,14175
+34823, Republic of,7/26/20,14175
 34824,Mexico,7/26/20,390516
 34825,Oman,7/26/20,76005
 34826,Pakistan,7/26/20,273113
@@ -35009,7 +35009,7 @@ confirmed_id,country,date,confirmed_total
 35007,Serbia,7/27/20,24141
 35008,AUnited Statestralia,7/27/20,15303
 35009,Burma,7/27/20,350
-35010,Korea, Republic of,7/27/20,14203
+35010, Republic of,7/27/20,14203
 35011,Mexico,7/27/20,395489
 35012,Oman,7/27/20,77058
 35013,Pakistan,7/27/20,274289
@@ -35196,7 +35196,7 @@ confirmed_id,country,date,confirmed_total
 35194,Serbia,7/28/20,24520
 35195,AUnited Statestralia,7/28/20,15582
 35196,Burma,7/28/20,351
-35197,Korea, Republic of,7/28/20,14251
+35197, Republic of,7/28/20,14251
 35198,Mexico,7/28/20,402697
 35199,Oman,7/28/20,77904
 35200,Pakistan,7/28/20,275225
@@ -35383,7 +35383,7 @@ confirmed_id,country,date,confirmed_total
 35381,Serbia,7/29/20,24892
 35382,AUnited Statestralia,7/29/20,16298
 35383,Burma,7/29/20,351
-35384,Korea, Republic of,7/29/20,14269
+35384, Republic of,7/29/20,14269
 35385,Mexico,7/29/20,408449
 35386,Oman,7/29/20,78569
 35387,Pakistan,7/29/20,276288
@@ -35570,7 +35570,7 @@ confirmed_id,country,date,confirmed_total
 35568,Serbia,7/30/20,25213
 35569,AUnited Statestralia,7/30/20,16903
 35570,Burma,7/30/20,353
-35571,Korea, Republic of,7/30/20,14305
+35571, Republic of,7/30/20,14305
 35572,Mexico,7/30/20,416179
 35573,Oman,7/30/20,79159
 35574,Pakistan,7/30/20,277402
@@ -35757,7 +35757,7 @@ confirmed_id,country,date,confirmed_total
 35755,Serbia,7/31/20,25552
 35756,AUnited Statestralia,7/31/20,17280
 35757,Burma,7/31/20,353
-35758,Korea, Republic of,7/31/20,14336
+35758, Republic of,7/31/20,14336
 35759,Mexico,7/31/20,424637
 35760,Oman,7/31/20,79159
 35761,Pakistan,7/31/20,278305
@@ -35944,7 +35944,7 @@ confirmed_id,country,date,confirmed_total
 35942,Serbia,8/1/20,25882
 35943,AUnited Statestralia,8/1/20,17895
 35944,Burma,8/1/20,353
-35945,Korea, Republic of,8/1/20,14366
+35945, Republic of,8/1/20,14366
 35946,Mexico,8/1/20,434193
 35947,Oman,8/1/20,79159
 35948,Pakistan,8/1/20,278305
@@ -36131,7 +36131,7 @@ confirmed_id,country,date,confirmed_total
 36129,Serbia,8/2/20,26193
 36130,AUnited Statestralia,8/2/20,18318
 36131,Burma,8/2/20,353
-36132,Korea, Republic of,8/2/20,14389
+36132, Republic of,8/2/20,14389
 36133,Mexico,8/2/20,439046
 36134,Oman,8/2/20,79159
 36135,Pakistan,8/2/20,279699
@@ -36318,7 +36318,7 @@ confirmed_id,country,date,confirmed_total
 36316,Serbia,8/3/20,26451
 36317,AUnited Statestralia,8/3/20,18730
 36318,Burma,8/3/20,355
-36319,Korea, Republic of,8/3/20,14423
+36319, Republic of,8/3/20,14423
 36320,Mexico,8/3/20,443813
 36321,Oman,8/3/20,79159
 36322,Pakistan,8/3/20,280461
@@ -36505,7 +36505,7 @@ confirmed_id,country,date,confirmed_total
 36503,Serbia,8/4/20,26738
 36504,AUnited Statestralia,8/4/20,19445
 36505,Burma,8/4/20,356
-36506,Korea, Republic of,8/4/20,14456
+36506, Republic of,8/4/20,14456
 36507,Mexico,8/4/20,449961
 36508,Oman,8/4/20,79159
 36509,Pakistan,8/4/20,280461
@@ -36692,7 +36692,7 @@ confirmed_id,country,date,confirmed_total
 36690,Serbia,8/5/20,27033
 36691,AUnited Statestralia,8/5/20,19890
 36692,Burma,8/5/20,357
-36693,Korea, Republic of,8/5/20,14499
+36693, Republic of,8/5/20,14499
 36694,Mexico,8/5/20,456100
 36695,Oman,8/5/20,80286
 36696,Pakistan,8/5/20,281136
@@ -36879,7 +36879,7 @@ confirmed_id,country,date,confirmed_total
 36877,Serbia,8/6/20,27332
 36878,AUnited Statestralia,8/6/20,20272
 36879,Burma,8/6/20,357
-36880,Korea, Republic of,8/6/20,14519
+36880, Republic of,8/6/20,14519
 36881,Mexico,8/6/20,462690
 36882,Oman,8/6/20,80713
 36883,Pakistan,8/6/20,281863
@@ -37066,7 +37066,7 @@ confirmed_id,country,date,confirmed_total
 37064,Serbia,8/7/20,27608
 37065,AUnited Statestralia,8/7/20,20698
 37066,Burma,8/7/20,359
-37067,Korea, Republic of,8/7/20,14562
+37067, Republic of,8/7/20,14562
 37068,Mexico,8/7/20,469407
 37069,Oman,8/7/20,81067
 37070,Pakistan,8/7/20,282645
@@ -37253,7 +37253,7 @@ confirmed_id,country,date,confirmed_total
 37251,Serbia,8/8/20,27863
 37252,AUnited Statestralia,8/8/20,21084
 37253,Burma,8/8/20,359
-37254,Korea, Republic of,8/8/20,14598
+37254, Republic of,8/8/20,14598
 37255,Mexico,8/8/20,475902
 37256,Oman,8/8/20,81357
 37257,Pakistan,8/8/20,283487
@@ -37440,7 +37440,7 @@ confirmed_id,country,date,confirmed_total
 37438,Serbia,8/9/20,28099
 37439,AUnited Statestralia,8/9/20,21397
 37440,Burma,8/9/20,360
-37441,Korea, Republic of,8/9/20,14626
+37441, Republic of,8/9/20,14626
 37442,Mexico,8/9/20,480278
 37443,Oman,8/9/20,81580
 37444,Pakistan,8/9/20,284121
@@ -37627,7 +37627,7 @@ confirmed_id,country,date,confirmed_total
 37625,Serbia,8/10/20,28262
 37626,AUnited Statestralia,8/10/20,21713
 37627,Burma,8/10/20,360
-37628,Korea, Republic of,8/10/20,14660
+37628, Republic of,8/10/20,14660
 37629,Mexico,8/10/20,485836
 37630,Oman,8/10/20,81787
 37631,Pakistan,8/10/20,284660
@@ -37814,7 +37814,7 @@ confirmed_id,country,date,confirmed_total
 37812,Serbia,8/11/20,28497
 37813,AUnited Statestralia,8/11/20,22127
 37814,Burma,8/11/20,360
-37815,Korea, Republic of,8/11/20,14714
+37815, Republic of,8/11/20,14714
 37816,Mexico,8/11/20,492522
 37817,Oman,8/11/20,82050
 37818,Pakistan,8/11/20,285191
@@ -38001,7 +38001,7 @@ confirmed_id,country,date,confirmed_total
 37999,Serbia,8/12/20,28751
 38000,AUnited Statestralia,8/12/20,22358
 38001,Burma,8/12/20,361
-38002,Korea, Republic of,8/12/20,14770
+38002, Republic of,8/12/20,14770
 38003,Mexico,8/12/20,498380
 38004,Oman,8/12/20,82299
 38005,Pakistan,8/12/20,285921
@@ -38188,7 +38188,7 @@ confirmed_id,country,date,confirmed_total
 38186,Serbia,8/13/20,28998
 38187,AUnited Statestralia,8/13/20,22742
 38188,Burma,8/13/20,369
-38189,Korea, Republic of,8/13/20,14873
+38189, Republic of,8/13/20,14873
 38190,Mexico,8/13/20,505751
 38191,Oman,8/13/20,82531
 38192,Pakistan,8/13/20,286674
@@ -38375,7 +38375,7 @@ confirmed_id,country,date,confirmed_total
 38373,Serbia,8/14/20,29233
 38374,AUnited Statestralia,8/14/20,23035
 38375,Burma,8/14/20,374
-38376,Korea, Republic of,8/14/20,15039
+38376, Republic of,8/14/20,15039
 38377,Mexico,8/14/20,511369
 38378,Oman,8/14/20,82743
 38379,Pakistan,8/14/20,287300
@@ -38562,7 +38562,7 @@ confirmed_id,country,date,confirmed_total
 38560,Serbia,8/15/20,29471
 38561,AUnited Statestralia,8/15/20,23287
 38562,Burma,8/15/20,374
-38563,Korea, Republic of,8/15/20,15318
+38563, Republic of,8/15/20,15318
 38564,Mexico,8/15/20,517714
 38565,Oman,8/15/20,82924
 38566,Pakistan,8/15/20,288047
@@ -38749,7 +38749,7 @@ confirmed_id,country,date,confirmed_total
 38747,Serbia,8/16/20,29682
 38748,AUnited Statestralia,8/16/20,23558
 38749,Burma,8/16/20,375
-38750,Korea, Republic of,8/16/20,15515
+38750, Republic of,8/16/20,15515
 38751,Mexico,8/16/20,522162
 38752,Oman,8/16/20,83086
 38753,Pakistan,8/16/20,289215
@@ -38936,7 +38936,7 @@ confirmed_id,country,date,confirmed_total
 38934,Serbia,8/17/20,29782
 38935,AUnited Statestralia,8/17/20,23773
 38936,Burma,8/17/20,376
-38937,Korea, Republic of,8/17/20,15761
+38937, Republic of,8/17/20,15761
 38938,Mexico,8/17/20,525733
 38939,Oman,8/17/20,83226
 38940,Pakistan,8/17/20,289215
@@ -39123,7 +39123,7 @@ confirmed_id,country,date,confirmed_total
 39121,Serbia,8/18/20,29890
 39122,AUnited Statestralia,8/18/20,23989
 39123,Burma,8/18/20,376
-39124,Korea, Republic of,8/18/20,16058
+39124, Republic of,8/18/20,16058
 39125,Mexico,8/18/20,531239
 39126,Oman,8/18/20,83418
 39127,Pakistan,8/18/20,289832
@@ -39310,7 +39310,7 @@ confirmed_id,country,date,confirmed_total
 39308,Serbia,8/19/20,30048
 39309,AUnited Statestralia,8/19/20,24236
 39310,Burma,8/19/20,394
-39311,Korea, Republic of,8/19/20,16346
+39311, Republic of,8/19/20,16346
 39312,Mexico,8/19/20,537031
 39313,Oman,8/19/20,83606
 39314,Pakistan,8/19/20,290445
@@ -39497,7 +39497,7 @@ confirmed_id,country,date,confirmed_total
 39495,Serbia,8/20/20,30209
 39496,AUnited Statestralia,8/20/20,24407
 39497,Burma,8/20/20,399
-39498,Korea, Republic of,8/20/20,16670
+39498, Republic of,8/20/20,16670
 39499,Mexico,8/20/20,543806
 39500,Oman,8/20/20,83769
 39501,Pakistan,8/20/20,290958
@@ -39684,7 +39684,7 @@ confirmed_id,country,date,confirmed_total
 39682,Serbia,8/21/20,30378
 39683,AUnited Statestralia,8/21/20,24602
 39684,Burma,8/21/20,435
-39685,Korea, Republic of,8/21/20,17002
+39685, Republic of,8/21/20,17002
 39686,Mexico,8/21/20,549734
 39687,Oman,8/21/20,83769
 39688,Pakistan,8/21/20,291588
@@ -39871,7 +39871,7 @@ confirmed_id,country,date,confirmed_total
 39869,Serbia,8/22/20,30548
 39870,AUnited Statestralia,8/22/20,24811
 39871,Burma,8/22/20,441
-39872,Korea, Republic of,8/22/20,17399
+39872, Republic of,8/22/20,17399
 39873,Mexico,8/22/20,556216
 39874,Oman,8/22/20,83769
 39875,Pakistan,8/22/20,292174
@@ -40058,7 +40058,7 @@ confirmed_id,country,date,confirmed_total
 40056,Serbia,8/23/20,30657
 40057,AUnited Statestralia,8/23/20,24915
 40058,Burma,8/23/20,450
-40059,Korea, Republic of,8/23/20,17665
+40059, Republic of,8/23/20,17665
 40060,Mexico,8/23/20,560164
 40061,Oman,8/23/20,83769
 40062,Pakistan,8/23/20,293261
@@ -40245,7 +40245,7 @@ confirmed_id,country,date,confirmed_total
 40243,Serbia,8/24/20,30714
 40244,AUnited Statestralia,8/24/20,25053
 40245,Burma,8/24/20,474
-40246,Korea, Republic of,8/24/20,17945
+40246, Republic of,8/24/20,17945
 40247,Mexico,8/24/20,563705
 40248,Oman,8/24/20,84509
 40249,Pakistan,8/24/20,293261
@@ -40432,7 +40432,7 @@ confirmed_id,country,date,confirmed_total
 40430,Serbia,8/25/20,30820
 40431,AUnited Statestralia,8/25/20,25204
 40432,Burma,8/25/20,504
-40433,Korea, Republic of,8/25/20,18265
+40433, Republic of,8/25/20,18265
 40434,Mexico,8/25/20,568621
 40435,Oman,8/25/20,84652
 40436,Pakistan,8/25/20,293711
@@ -40619,7 +40619,7 @@ confirmed_id,country,date,confirmed_total
 40617,Serbia,8/26/20,30974
 40618,AUnited Statestralia,8/26/20,25322
 40619,Burma,8/26/20,580
-40620,Korea, Republic of,8/26/20,18706
+40620, Republic of,8/26/20,18706
 40621,Mexico,8/26/20,573888
 40622,Oman,8/26/20,84818
 40623,Pakistan,8/26/20,294193
@@ -40806,7 +40806,7 @@ confirmed_id,country,date,confirmed_total
 40804,Serbia,8/27/20,31099
 40805,AUnited Statestralia,8/27/20,25448
 40806,Burma,8/27/20,602
-40807,Korea, Republic of,8/27/20,19077
+40807, Republic of,8/27/20,19077
 40808,Mexico,8/27/20,579914
 40809,Oman,8/27/20,85005
 40810,Pakistan,8/27/20,294638
@@ -40993,7 +40993,7 @@ confirmed_id,country,date,confirmed_total
 40991,Serbia,8/28/20,31207
 40992,AUnited Statestralia,8/28/20,25547
 40993,Burma,8/28/20,643
-40994,Korea, Republic of,8/28/20,19400
+40994, Republic of,8/28/20,19400
 40995,Mexico,8/28/20,585738
 40996,Oman,8/28/20,85005
 40997,Pakistan,8/28/20,295053
@@ -41180,7 +41180,7 @@ confirmed_id,country,date,confirmed_total
 41178,Serbia,8/29/20,31282
 41179,AUnited Statestralia,8/29/20,25670
 41180,Burma,8/29/20,749
-41181,Korea, Republic of,8/29/20,19699
+41181, Republic of,8/29/20,19699
 41182,Mexico,8/29/20,591712
 41183,Oman,8/29/20,85005
 41184,Pakistan,8/29/20,295372
@@ -41367,7 +41367,7 @@ confirmed_id,country,date,confirmed_total
 41365,Serbia,8/30/20,31365
 41366,AUnited Statestralia,8/30/20,25746
 41367,Burma,8/30/20,775
-41368,Korea, Republic of,8/30/20,19947
+41368, Republic of,8/30/20,19947
 41369,Mexico,8/30/20,595841
 41370,Oman,8/30/20,85544
 41371,Pakistan,8/30/20,295636
@@ -41554,7 +41554,7 @@ confirmed_id,country,date,confirmed_total
 41552,Serbia,8/31/20,31406
 41553,AUnited Statestralia,8/31/20,25819
 41554,Burma,8/31/20,882
-41555,Korea, Republic of,8/31/20,20182
+41555, Republic of,8/31/20,20182
 41556,Mexico,8/31/20,599560
 41557,Oman,8/31/20,85722
 41558,Pakistan,8/31/20,295849
@@ -41741,7 +41741,7 @@ confirmed_id,country,date,confirmed_total
 41739,Serbia,9/1/20,31482
 41740,AUnited Statestralia,9/1/20,25923
 41741,Burma,9/1/20,919
-41742,Korea, Republic of,9/1/20,20449
+41742, Republic of,9/1/20,20449
 41743,Mexico,9/1/20,606036
 41744,Oman,9/1/20,85928
 41745,Pakistan,9/1/20,296149
@@ -41928,7 +41928,7 @@ confirmed_id,country,date,confirmed_total
 41926,Serbia,9/2/20,31581
 41927,AUnited Statestralia,9/2/20,26049
 41928,Burma,9/2/20,995
-41929,Korea, Republic of,9/2/20,20644
+41929, Republic of,9/2/20,20644
 41930,Mexico,9/2/20,610957
 41931,Oman,9/2/20,85928
 41932,Pakistan,9/2/20,297014
@@ -42115,7 +42115,7 @@ confirmed_id,country,date,confirmed_total
 42113,Serbia,9/3/20,31676
 42114,AUnited Statestralia,9/3/20,26136
 42115,Burma,9/3/20,1111
-42116,Korea, Republic of,9/3/20,20842
+42116, Republic of,9/3/20,20842
 42117,Mexico,9/3/20,616894
 42118,Oman,9/3/20,86380
 42119,Pakistan,9/3/20,297512
@@ -42302,7 +42302,7 @@ confirmed_id,country,date,confirmed_total
 42300,Serbia,9/4/20,31772
 42301,AUnited Statestralia,9/4/20,26207
 42302,Burma,9/4/20,1171
-42303,Korea, Republic of,9/4/20,21010
+42303, Republic of,9/4/20,21010
 42304,Mexico,9/4/20,623090
 42305,Oman,9/4/20,86380
 42306,Pakistan,9/4/20,298025
@@ -42489,7 +42489,7 @@ confirmed_id,country,date,confirmed_total
 42487,Serbia,9/5/20,31849
 42488,AUnited Statestralia,9/5/20,26278
 42489,Burma,9/5/20,1319
-42490,Korea, Republic of,9/5/20,21177
+42490, Republic of,9/5/20,21177
 42491,Mexico,9/5/20,629409
 42492,Oman,9/5/20,86380
 42493,Pakistan,9/5/20,298025
@@ -42676,7 +42676,7 @@ confirmed_id,country,date,confirmed_total
 42674,Serbia,9/6/20,31905
 42675,AUnited Statestralia,9/6/20,26321
 42676,Burma,9/6/20,1419
-42677,Korea, Republic of,9/6/20,21296
+42677, Republic of,9/6/20,21296
 42678,Mexico,9/6/20,634023
 42679,Oman,9/6/20,87072
 42680,Pakistan,9/6/20,298903
@@ -42863,7 +42863,7 @@ confirmed_id,country,date,confirmed_total
 42861,Serbia,9/7/20,31941
 42862,AUnited Statestralia,9/7/20,26373
 42863,Burma,9/7/20,1518
-42864,Korea, Republic of,9/7/20,21432
+42864, Republic of,9/7/20,21432
 42865,Mexico,9/7/20,637509
 42866,Oman,9/7/20,87328
 42867,Pakistan,9/7/20,299233
@@ -43050,7 +43050,7 @@ confirmed_id,country,date,confirmed_total
 43048,Serbia,9/8/20,31994
 43049,AUnited Statestralia,9/8/20,26465
 43050,Burma,9/8/20,1807
-43051,Korea, Republic of,9/8/20,21588
+43051, Republic of,9/8/20,21588
 43052,Mexico,9/8/20,642860
 43053,Oman,9/8/20,87590
 43054,Pakistan,9/8/20,299659
@@ -43237,7 +43237,7 @@ confirmed_id,country,date,confirmed_total
 43235,Serbia,9/9/20,32078
 43236,AUnited Statestralia,9/9/20,26524
 43237,Burma,9/9/20,2009
-43238,Korea, Republic of,9/9/20,21743
+43238, Republic of,9/9/20,21743
 43239,Mexico,9/9/20,647321
 43240,Oman,9/9/20,87939
 43241,Pakistan,9/9/20,300030

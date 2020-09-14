@@ -5,9 +5,9 @@ from webmap.models import Recovered
 from webmap.models import WorldBorder
 
 
-confirmed = pd.read_csv('../World_total_data/Wolrd_Confirmed.csv')
-deaths = pd.read_csv('../World_total_data/Wolrd_Deaths.csv')
-recovered = pd.read_csv('../World_total_data/Wolrd_Recovered.csv')
+confirmed = pd.read_csv('../World_total_data/Wolrd_Confirmed.csv', error_bad_lines=False)
+deaths = pd.read_csv('../World_total_data/Wolrd_Deaths.csv', error_bad_lines=False)
+recovered = pd.read_csv('../World_total_data/Wolrd_Recovered.csv', error_bad_lines=False)
 
 
 def run():
@@ -31,7 +31,7 @@ def run():
             D.country = None
         D.save()
 
-    print('__Confirmed__')
+    print('__Recovered__')
     for x in recovered.iterrows():
         R = Recovered(date=recovered['date'][x[0]], total=recovered['recovered_total'][x[0]])
         print(recovered['country'][x[0]])

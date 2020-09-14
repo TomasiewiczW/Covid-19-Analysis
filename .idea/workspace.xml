@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde3e5f0-8102-46bd-9836-ed3ab1d67933" name="Default Changelist" comment="" />
+    <list default="true" id="dde3e5f0-8102-46bd-9836-ed3ab1d67933" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/corona_webmap/webmap/templates/subplot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/World_total_data/Wolrd_Confirmed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/World_total_data/Wolrd_Confirmed.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_webmap/corona_webmap/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/corona_webmap/corona_webmap/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_webmap/corona_webmap/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/corona_webmap/corona_webmap/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_webmap/webmap/load_covid_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/corona_webmap/webmap/load_covid_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_webmap/webmap/templates/webmap/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/corona_webmap/webmap/templates/webmap/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corona_webmap/webmap/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/corona_webmap/webmap/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,8 +52,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/corona_webmap/webmap/templates" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,6 +80,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="665" y="282" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599987857164">

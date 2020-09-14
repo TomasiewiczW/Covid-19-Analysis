@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_gis',
     'webmap',
+    'matplot',
 ]
 
 MIDDLEWARE = [
@@ -94,8 +95,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'HOST': 'localhost',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'USER': 'adria',
+        'PASSWORD': '1234',
         'NAME': 'postgres',
     }
 }
